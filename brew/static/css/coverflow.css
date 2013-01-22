@@ -1,0 +1,71 @@
+body {
+  font-family: 'Oswald', sans-serif; }
+  body .navbar, body .nav-tabs {
+    font-family: 'Permanent Marker', cursive;
+    color: white; }
+    body .navbar.navbar-inverse li > a, body .navbar.navbar-inverse .brand, body .nav-tabs.navbar-inverse li > a, body .nav-tabs.navbar-inverse .brand {
+      color: white; }
+
+.thumbnails-container {
+  text-align: center;
+  position: relative;
+  width: 100%; }
+  .thumbnails-container .thumbnails {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto; }
+
+.cf2 {
+  width: 100%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  height: 300px;
+  background-position: 0px;
+  z-index: -1;
+  background-image: url(/img/brew_images/Inspiration/Katscape.jpg); }
+
+.navbar {
+  margin-bottom: 0px; }
+  .navbar .navbar-inner {
+    -webkit-font-smoothing: antialiased;
+    border-radius: 0px; }
+  .navbar .container {
+    overflow: hidden;
+    white-space: nowrap; }
+    .navbar .container > * {
+      white-space: nowrap;
+      display: inline-block; }
+
+.footer {
+  text-align: center; }
+
+.content .nav-tabs {
+  border-top: 1px solid black; }
+  .content .nav-tabs a {
+    -webkit-font-smoothing: antialiased;
+    color: #333; }
+  .content .nav-tabs > li {
+    margin-bottom: 0px;
+    margin-left: .75em;
+    margin-right: .75em; }
+  .content .nav-tabs > li > a {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    line-height: 18px;
+    border: 0px solid white;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    padding-left: 1.5em;
+    padding-right: 1.5em; }
+  .content .nav-tabs > .active > a {
+    color: white;
+    border: 0px solid white;
+    border-bottom-color: black;
+    border-bottom-width: 1px;
+    margin-bottom: -1px;
+    background-color: #000; }
+  .content .nav-tabs > li:not(.active) > a {
+    background-color: white; }
+.content .content-area {
+  padding: 2em; }

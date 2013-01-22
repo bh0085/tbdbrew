@@ -1,0 +1,15 @@
+.navbar{
+    margin-bottom:0px;
+    .navbar-inner{
+        -webkit-font-smoothing: antialiased;
+        border-radius:0px;
+    }
+    .container{
+        overflow:hidden;
+        white-space:nowrap;
+        >*{
+            white-space:nowrap;
+            display:inline-block;    
+        }         
+    }       
+}

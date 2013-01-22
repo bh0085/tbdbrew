@@ -1,0 +1,7 @@
+/** all templates inherit styles from base */
+@import "base";
+
+/** page specific styles */
+@import "contact";
+@import "about";
+@import "main";
