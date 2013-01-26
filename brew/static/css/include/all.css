@@ -58,7 +58,7 @@
       opacity: .7;
       opacity: 1; }
     .coverflow-container.awake .overlay .coverflow-thickborder {
-      box-shadow: 3px 3px 12px -3px rgba(0, 0, 0, 0.3), 0px 200px 500px 0px rgba(255, 255, 255, 0.6); }
+      box-shadow: 3px 3px 12px -3px rgba(0, 0, 0, 0.3), 0px 200px 500px 0px rgba(255, 255, 255, 0.8); }
 
 .coverflow-thickborder {
   position: absolute;
