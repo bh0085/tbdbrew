@@ -2,13 +2,12 @@
   <div class="navbar-inner">
     <div class="container"> 
       <!-- Be sure to leave the brand out there if you want it shown -->
-      <a class="brand" href="/">TBD Brew Co. name contest</a>
-      <ul class="nav about-contest"> <li><a data-toggle="collapse" data-target=".afternav">how it works>></a></li></ul>
+      <a class="brand" href="/">TBD Brewery Name Contest</a>
+      <ul class="nav about-contest"> <li><a data-toggle="collapse" data-target=".afternav">info>></a></li></ul>
       <!-- Everything you want hidden at 940px or less, place within here -->
       <ul class="nav pull-right">
         <li><a href="/about">About Us</a></li>
         <li><a href="/beer">Our Beer</a></li>        
-        <li><a href="/contact">Contact</a></li>
       </ul>
     </div>
   </div>
