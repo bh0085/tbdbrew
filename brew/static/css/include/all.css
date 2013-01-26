@@ -1,11 +1,115 @@
-.cf2 {
-  width: 100%;
-  margin-top: 0px;
-  margin-bottom: 0px;
+.coverflow-container {
   height: 300px;
-  background-position: 0px;
-  z-index: -1;
-  background-image: url(/img/brew_images/Inspiration/Katscape.jpg); }
+  width: 100%;
+  position: relative;
+  display: block; }
+
+.nav-tabs.nav-tabs.coverflow-tabs.coverflow-tabs {
+  margin-bottom: 0px;
+  position: absolute;
+  top: 100%;
+  margin-top: 1px;
+  right: 0px;
+  border: none;
+  border: 5px solid black;
+  border-top-width: 0px;
+  background-color: white;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  margin-top: 0px;
+  border-right: 0px;
+  box-shadow: 3px 3px 12px -3px rgba(0, 0, 0, 0.3); }
+  .nav-tabs.nav-tabs.coverflow-tabs.coverflow-tabs li:first-child {
+    margin-left: 0px; }
+  .nav-tabs.nav-tabs.coverflow-tabs.coverflow-tabs a {
+    border-bottom-width: 0px;
+    padding-top: 6px;
+    padding-bottom: 8px;
+    padding-left: .75em;
+    padding-right: .75em; }
+  .nav-tabs.nav-tabs.coverflow-tabs.coverflow-tabs .tabs-companion {
+    z-index: 100;
+    position: absolute;
+    right: 100%;
+    margin-right: 10px;
+    top: 0px;
+    margin-top: 5px;
+    color: black;
+    opacity: 1;
+    width: 13.5em;
+    white-space: nowrap;
+    text-align: left;
+    line-height: 28px; }
+    .nav-tabs.nav-tabs.coverflow-tabs.coverflow-tabs .tabs-companion .second-companion {
+      left: 0px;
+      margin-top: -5px;
+      position: absolute;
+      top: 100%; }
+
+.coverflow-container {
+  /* controls overlay appearances */ }
+  .coverflow-container:not(.awake) .overlay {
+    opacity: .0;
+    -webkit-transition: opacity 1s; }
+  .coverflow-container.awake .overlay {
+    -webkit-transition: opacity .25s;
+    opacity: 1; }
+    .coverflow-container.awake .overlay .coverflow-tabs {
+      opacity: .7;
+      opacity: 1; }
+
+.coverflow-thickborder {
+  position: absolute;
+  pointer-events: none;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin-bottom: -5px;
+  border-bottom: 5px solid black;
+  box-shadow: 3px 3px 12px -3px rgba(0, 0, 0, 0.3), 0px 200px 400px 0px rgba(255, 255, 255, 0.9); }
+
+.instructions {
+  position: absolute;
+  bottom: 100%;
+  left: 65%;
+  font-size: 90%;
+  margin-left: -5em;
+  -webkit-font-smoothing: antialiased; }
+  .instructions > * {
+    color: rgba(255, 255, 255, 0.75); }
+
+.carousel {
+  margin-bottom: 0px;
+  margin-top: 0px;
+  cursor: pointer; }
+  .carousel .carousel-inner .item {
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    background-position: center center;
+    background-color: black;
+    cursor: pointer; }
+    .carousel .carousel-inner .item.cf1 {
+      background-image: url(/img/brew_images/Inspiration/Katscape.jpg); }
+    .carousel .carousel-inner .item.cf2 {
+      background-image: url(/img/brew_images/Inspiration/IsItArt.jpg); }
+    .carousel .carousel-inner .item.cf3 {
+      background-image: url(/img/brew_images/Inspiration/snake-charmer-1870.jpg); }
+  .carousel .carousel-control {
+    border-radius: 28px;
+    border: 8px solid white;
+    background-color: rgba(0, 0, 0, 0.3); }
+    .carousel .carousel-control > span {
+      opacity: 1;
+      text-shadow: 1px 1px 0px 0px black;
+      font-size: 16px;
+      line-height: 0px;
+      vertical-align: middle;
+      top: 50%;
+      position: relative; }
 
 .navbar {
   margin-bottom: 0px; }
@@ -19,33 +123,38 @@
       white-space: nowrap;
       display: inline-block; }
 
-.content .nav-tabs {
-  border-top: 1px solid black; }
-  .content .nav-tabs a {
-    -webkit-font-smoothing: antialiased;
-    color: #333; }
-  .content .nav-tabs > li {
-    margin-bottom: 0px;
-    margin-left: .75em;
-    margin-right: .75em; }
-  .content .nav-tabs > li > a {
-    padding-top: 8px;
-    padding-bottom: 8px;
-    line-height: 18px;
-    border: 0px solid white;
-    -webkit-border-radius: 0px;
-    -moz-border-radius: 0px;
-    border-radius: 0px;
-    padding-left: 1.5em;
-    padding-right: 1.5em; }
-  .content .nav-tabs > .active > a {
-    color: white;
-    border: 0px solid white;
-    border-bottom-color: black;
-    border-bottom-width: 1px;
-    margin-bottom: -1px;
-    background-color: #000; }
-  .content .nav-tabs > li:not(.active) > a {
-    background-color: white; }
 .content .content-area {
-  padding: 2em; }
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-bottom: 2em; }
+  .content .content-area .tab-pane {
+    overflow-x: hidden; }
+    .content .content-area .tab-pane .header {
+      text-align: center;
+      width: 100%;
+      margin-bottom: 1em; }
+    .content .content-area .tab-pane .content.dl-content {
+      max-width: 650px;
+      margin-top: 2em;
+      margin-bottom: 5em; }
+      .content .content-area .tab-pane .content.dl-content .item {
+        margin-bottom: .5em; }
+        .content .content-area .tab-pane .content.dl-content .item dt {
+          overflow-y: visible; }
+        .content .content-area .tab-pane .content.dl-content .item dd.hidden {
+          opacity: 0; }
+        .content .content-area .tab-pane .content.dl-content .item .howitworks {
+          margin-bottom: 1em; }
+          .content .content-area .tab-pane .content.dl-content .item .howitworks dt {
+            overflow: visible; }
+  .content .content-area .optional:not(:hover) {
+    color: lightgray; }
+  .content .content-area .alert {
+    opacity: .4;
+    left: 50%;
+    margin-left: -100%;
+    padding: 1.5em;
+    width: 200%;
+    position: relative;
+    margin-top: 1.5em;
+    margin-bottom: .75em; }

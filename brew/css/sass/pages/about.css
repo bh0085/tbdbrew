@@ -1,0 +1,20 @@
+.thumbnails-container {
+  margin-top: 1.5em;
+  text-align: center;
+  position: relative;
+  width: 100%; }
+  .thumbnails-container .thumbnails {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto; }
+
+.description {
+  line-height: 1.5em; }
+  .description ol, .description ul {
+    margin-top: 1.25em;
+    margin-bottom: 1.25em;
+    margin-left: 0px;
+    list-style: lower-roman; }
+    .description ol > li, .description ul > li {
+      margin-bottom: .5em;
+      line-height: 1.5em; }

@@ -6,16 +6,24 @@
     margin-top:2em;
     border-top: 1px solid #efefef;
     padding-top:1em;
-}
-
-
-.footer{
     text-align:center;
 }
 
 
+.unselectable {
+   -moz-user-select: -moz-none;
+   -khtml-user-select: none;
+   -webkit-user-select: none;
+   user-select: none;
+}
+
 body{
-    font-family: 'Oswald', sans-serif;
+    .impact{
+        font-family: 'Oswald', sans-serif;
+    }
+    .marker{
+        font-family: 'Permanent Marker', cursive;
+    }
     .navbar, .nav-tabs{
         font-family: 'Permanent Marker', cursive;
         color:white;

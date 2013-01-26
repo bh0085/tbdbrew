@@ -20,7 +20,7 @@
       <%include file="include/navbar.mako"/>
     </div>
     <%block name="content_html"/>
-    <div class="footer">TBD Brewing Co, 2013</div> 
+    <div class="impact footer">TBD Brewing Co, 2013</div> 
   </body> 
 </html>
 

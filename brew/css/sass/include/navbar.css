@@ -1,0 +1,11 @@
+.navbar {
+  margin-bottom: 0px; }
+  .navbar .navbar-inner {
+    -webkit-font-smoothing: antialiased;
+    border-radius: 0px; }
+  .navbar .container {
+    overflow: hidden;
+    white-space: nowrap; }
+    .navbar .container > * {
+      white-space: nowrap;
+      display: inline-block; }

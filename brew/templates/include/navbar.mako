@@ -7,6 +7,7 @@
       <!-- Everything you want hidden at 940px or less, place within here -->
       <ul class="nav pull-right">
         <li><a href="/about">About Us</a></li>
+        <li><a href="/beer">Our Beer</a></li>        
         <li><a href="/contact">Contact</a></li>
       </ul>
     </div>
