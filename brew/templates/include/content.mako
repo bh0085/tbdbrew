@@ -8,7 +8,7 @@
     <span id="submit" class="tab-pane active">
       <div class="header">
         <h1 class="impact">Suggest a Brewery Name</h1>
-        <h3 class="impact page-header">to acquire <i>fame</i> and <i>fine beer</i></h3> 
+        <h3 class="impact page-header">thus acquiring <i>fame</i> and <i>fine beer</i></h3> 
       </div>
       <div class="content dl-content">
         <dl class="dl-horizontal">

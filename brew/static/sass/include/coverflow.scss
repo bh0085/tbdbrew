@@ -66,17 +66,22 @@
     &:not(.awake){
         .overlay{
             opacity:.0;
-            -webkit-transition: opacity 1s; //slow fadeout
+            -webkit-transition: opacity 1.25s; //slow fadeout
         }
     }
     &.awake{
         .overlay{
-            -webkit-transition: opacity .25s; //fast fadein
+            -webkit-transition-delay:2s;
+            -webkit-transition: opacity .75s; //fast fadein
             opacity:1;
             
             .coverflow-tabs{
                 opacity:.7;
                 opacity: 1;
+            }
+            .coverflow-thickborder{
+                box-shadow: 3px 3px 12px -3px rgba(0, 0, 0, .3), 0px 200px 400px -000px rgba(255, 255, 255, .6);
+
             }
         }
     }
@@ -91,7 +96,6 @@
     right:0px;
     margin-bottom:-5px;
     border-bottom: 5px solid black;
-    box-shadow: 3px 3px 12px -3px rgba(0, 0, 0, .3), 0px 200px 400px -000px rgba(255, 255, 255, .9);
     
 
 }

@@ -59,22 +59,24 @@
   $(".carousel").carousel().click(function(ev){
   $(this).carousel("next");
   awaken();
-  console.log("CLICKING");
   }).parents().filter(".coverflow-container").mousemove(awaken).mouseout(sleep);
   
   function awaken(ev){
   var $self = $(this)
 
   $self.addClass("awake")
+
+  /*
   if(carousel_sleep_timeout){
   window.clearTimeout(carousel_sleep_timeout);
-  }
-
+  } 
   carousel_sleep_timeout = window.setTimeout(function(){
   $self.removeClass("awake");
   carousel_sleep_timeout = null;
   },2000);
+  */
   }
+  
 
   function sleep(){
   var $self = $(this)
