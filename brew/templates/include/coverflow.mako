@@ -48,7 +48,7 @@
       <li class="active"><a href="#inspiring-art" data-toggle="tab">Art</a></li>
       <li><a href="#inspiring-beer" data-toggle="tab">Beer</a></li>
       <li><a href="#scrapbook" data-toggle="tab">Scrapbook</a></li>
-      <div class="tabs-companion">stuff that inspires us --><div class="second-companion">(click to advance)</div></div>
+      <div class="tabs-companion">stuff that inspires us --><div class="second-companion">(click images to advance)</div></div>
     </ul>
     </span>
   </div>

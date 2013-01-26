@@ -38,8 +38,9 @@
     opacity: 1;
     width: 13.5em;
     white-space: nowrap;
+    font-size: 1.1em;
     text-align: left;
-    line-height: 28px; }
+    line-height: 24px; }
     .nav-tabs.nav-tabs.coverflow-tabs.coverflow-tabs .tabs-companion .second-companion {
       left: 0px;
       margin-top: -5px;
@@ -54,15 +55,15 @@
       pointer-events: auto; }
     .coverflow-container:not(.awake) .overlay {
       opacity: .0;
-      -webkit-transition: opacity .6s; }
+      -webkit-transition: opacity .5s; }
   .coverflow-container.awake .overlay {
-    -webkit-transition: opacity .6s;
+    -webkit-transition: opacity .5s;
     opacity: 1; }
     .coverflow-container.awake .overlay .coverflow-tabs {
       opacity: .7;
       opacity: 1; }
     .coverflow-container.awake .overlay .coverflow-thickborder {
-      box-shadow: 3px 3px 12px -3px rgba(0, 0, 0, 0.3), 0px 200px 500px 0px rgba(255, 255, 255, 0.9); }
+      box-shadow: 3px 3px 12px -3px rgba(0, 0, 0, 0.3), 0px 200px 400px 50px rgba(255, 255, 255, 0.95); }
 
 .coverflow-thickborder {
   position: absolute;
@@ -78,7 +79,7 @@
   position: absolute;
   bottom: 100%;
   left: 65%;
-  font-size: 90%;
+  font-size: 100%;
   margin-left: -5em;
   -webkit-font-smoothing: antialiased; }
   .instructions > * {
