@@ -11,7 +11,7 @@
   margin-top: 1px;
   right: 0px;
   border: none;
-  border: 3px solid black;
+  border: 1px solid black;
   border-top-width: 0px;
   background-color: white;
   border-bottom-left-radius: 0px;
@@ -48,9 +48,13 @@
 
 .coverflow-container {
   /* controls overlay appearances */ }
-  .coverflow-container:not(.awake) .overlay {
-    opacity: .0;
-    -webkit-transition: opacity .6s; }
+  .coverflow-container:not(.awake) {
+    pointer-events: none; }
+    .coverflow-container:not(.awake) .carousel {
+      pointer-events: auto; }
+    .coverflow-container:not(.awake) .overlay {
+      opacity: .0;
+      -webkit-transition: opacity .6s; }
   .coverflow-container.awake .overlay {
     -webkit-transition: opacity .6s;
     opacity: 1; }
@@ -67,8 +71,8 @@
   bottom: 0px;
   left: 0px;
   right: 0px;
-  margin-bottom: -3px;
-  border-bottom: 3px solid black; }
+  margin-bottom: -1px;
+  border-bottom: 1px solid black; }
 
 .instructions {
   position: absolute;

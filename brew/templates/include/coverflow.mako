@@ -1,6 +1,6 @@
 <div class="coverflow-container">
   <div class="tab-content content-area">
-    <div id="inspiring-art" class="unselectable carousel tab-pane active">
+    <div id="inspiring-art" class="unselectable carousel tab-pane active" data-interval="10000">
       <!-- Carousel items -->
       <div class="carousel-inner">
         <div class="item active cf1"></div>
@@ -48,7 +48,7 @@
       <li class="active"><a href="#inspiring-art" data-toggle="tab">Art</a></li>
       <li><a href="#inspiring-beer" data-toggle="tab">Beer</a></li>
       <li><a href="#scrapbook" data-toggle="tab">Scrapbook</a></li>
-      <div class="tabs-companion">stuff that inspires us --><div class="second-companion">(tap images for next)</div></div>
+      <div class="tabs-companion">stuff that inspires us --><div class="second-companion">(click to advance)</div></div>
     </ul>
     </span>
   </div>
@@ -56,7 +56,7 @@
 
 <script type="text/javascript">
   var carousel_sleep_timeout
-  $(".carousel").carousel().click(function(ev){
+  $(".carousel").carousel({interval:10000}).click(function(ev){
   $(this).carousel("next");
   awaken();
   }).parents().filter(".coverflow-container").mousemove(awaken).mouseout(sleep);

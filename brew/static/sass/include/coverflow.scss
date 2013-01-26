@@ -15,7 +15,7 @@
     right:0px;
     border:none;
 
-    border: 3px solid black;
+    border: 1px solid black;
     border-top-width: 0px;
     background-color: white;
     border-bottom-left-radius: 0px;
@@ -64,6 +64,10 @@
 .coverflow-container{
     /* controls overlay appearances */
     &:not(.awake){
+        pointer-events:none;
+        .carousel{
+            pointer-events:auto;
+        }
         .overlay{
             opacity:.0;
             -webkit-transition: opacity .6s; //slow fadeout
@@ -93,8 +97,8 @@
     bottom:0px;
     left:0px;
     right:0px;
-    margin-bottom:-3px;
-    border-bottom: 3px solid black;
+    margin-bottom:-1px;
+    border-bottom: 1px solid black;
     
 
 }
