@@ -68,6 +68,9 @@
         .carousel{
             pointer-events:auto;
         }
+        .tabs-companion{
+            display:none;
+        }
         .overlay{
             opacity:.0;
             -webkit-transition: opacity .5s; //slow fadeout

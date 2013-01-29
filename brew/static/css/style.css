@@ -53,6 +53,8 @@
     pointer-events: none; }
     .coverflow-container:not(.awake) .carousel {
       pointer-events: auto; }
+    .coverflow-container:not(.awake) .tabs-companion {
+      display: none; }
     .coverflow-container:not(.awake) .overlay {
       opacity: .0;
       -webkit-transition: opacity .5s; }

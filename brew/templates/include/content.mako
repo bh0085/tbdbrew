@@ -7,8 +7,8 @@
   <div class="tab-content content-area">
     <span id="submit" class="tab-pane active">
       <div class="header">
-        <h1 class="impact">Suggest a Brewery Name</h1>
-        <h3 class="impact page-header">thus acquiring <i>fame</i> and <i>fine beer</i></h3> 
+        <h1 class="impact">Suggest a "TBD" <a href="http://en.wikipedia.org/wiki/Backronym">Backcronym</a></h1>
+        <h3 class="impact page-header">Brewery nicknamer acquires <i>fame</i> and <i>fine beer</i></h3> 
       </div>
       <div class="content dl-content">
         <dl class="dl-horizontal">
@@ -17,11 +17,11 @@
                 <dt>Simply:</dt><dd class="hidden">...</dd>
             </div></h4>
           </div><div class="item">
-            <dt>Begin</dt><dd>Think up a name and head over to <a class="item-link" href="http://tbdbrew.reddit.com/submit">tbdbrew.reddit.com/submit</a></dd>
+            <dt>Begin</dt><dd>Think up a backcronym for "TBD", eg: "Toad Buys Davis"</dd>
           </div><div class="item">
-            <dt>Suggest</dt><dd>Choose the "Text" tab and set your name suggestion <i>as its title</i>.</dd>
+            <dt>Suggest</dt><dd>Head over to <a class="item-link" href="http://tbdbrew.reddit.com/submit">tbdbrew.reddit.com/submit</a> choosing the "Text" tab.</dd>
           </div><div class="item">
-            <dt>Submit</dt><dd>Click submit.</dd>
+            <dt>Submit</dt><dd>Set your backcronymic brewery name <i>as its title</i> and click submit.</dd>
           </div><div class="item">
             <dt>Share</dt><dd>To win votes and climb to the top!</dd>
           </div><div class="item">
@@ -50,7 +50,7 @@
               <dt> - or - </dt><dd class="hidden">...</dd>
             </div><div class="item">
               <dt>As a Post</dt>
-              <dd>Instead of submitting your name suggestion as "Text", submit as a link to an imgur gallery containing your logo and any other artwork. Make sure to still post the suggested name as <i>your post's title!</i></dd>
+              <dd>Instead of submitting your backcronym suggestion as "Text", submit as a link to an imgur gallery containing your logo and any other artwork. Make sure to still post the suggested name as <i>your post's title!</i></dd>
             </div>
           </dl>
         </div>
