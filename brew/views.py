@@ -9,41 +9,7 @@ from .models import (
     )
 
 
-@view_config(route_name='main', renderer='main.mako')
-def main_view(request):
-    return {"coverflow_info":
-                [{"id":"inspiring-art",
-                  "title":"Art",
-                  "pictures":[
-                    {"image_root":"Inspiration",
-                     "image_name":"Katscape"},
-                    {"image_root":"Inspiration",
-                     "image_name":"snake-charmer-1870"},
-                    {"image_root":"Inspiration",
-                     "image_name":"IsItArt",
-                     "image_position":"50% 60%"},
-                    {"image_root":"Inspiration",
-                     "image_name":"HowsItCome",
-                     "image_position":"100% 100%"},
-                    {"image_root":"Inspiration",
-                     "image_name":"Kujo"},
-                    {"image_root":"Inspiration",
-                     "image_name":"BitchesBrew",
-                     "image_position":"100% 100%"},
-                    ]},
-                 {"id":"inspiring-beer",
-                  "title":"Beer",
-                  "pictures":[]},
-                 {"id":"scrapbook",
-                  "title":"Scrapbook",
-                  "pictures":[]}],
-            "coverflow_underhtml":'''stuff that inspires us -><div class="second-companion">(click images to advance)</div>'''}
-
-
-@view_config(route_name='about', renderer='about.mako')
-def about_view(request):
-    return {"coverflow_info":
-                [{"id":"scrapbook",
+sb_stuff = {"id":"scrapbook",
                   "title":"Our Scrapbook",
                   "pictures":[
                     {"image_root":"Scrapbook",
@@ -64,7 +30,49 @@ def about_view(request):
                      "image_position":"50% 25%"},
                     {"image_root":"Scrapbook",
                      "image_name":"thumbsup"},
+                    ]}
+
+inspiringbeers_stuff = {
+    "id":"inspiringbeers",
+    "title":"Beer",
+    "pictures":[
+        {"image_root":"inspiringbeer",
+         "image_name":"DogfishHead"},
+        {"image_root":"inspiringbeer",
+         "image_name":"NiceCans"},
+        ]
+    }
+
+@view_config(route_name='main', renderer='main.mako')
+def main_view(request):
+    return {"coverflow_info":
+                [{"id":"inspiring-art",
+                  "title":"Art",
+                  "pictures":[
+                    {"image_root":"Inspiration",
+                     "image_name":"Katscape"},
+                    {"image_root":"Inspiration",
+                     "image_name":"snake-charmer-1870"},
+                    {"image_root":"Inspiration",
+                     "image_name":"IsItArt",
+                     "image_position":"50% 60%"},
+                    {"image_root":"Inspiration",
+                     "image_name":"HowsItCome",
+                     "image_position":"100% 90%"},
+                    {"image_root":"Inspiration",
+                     "image_name":"Kujo"},
+                    {"image_root":"Inspiration",
+                     "image_name":"BitchesBrew",
+                     "image_position":"100% 100%"},
                     ]},
+                 inspiringbeers_stuff,
+                 sb_stuff],
+            "coverflow_underhtml":'''stuff that inspires us -><div class="second-companion">(click images to advance)</div>'''}
+
+@view_config(route_name='about', renderer='about.mako')
+def about_view(request):
+    return {"coverflow_info":
+                [sb_stuff,
                  {"id":"ourbeer",
                   "title":"Our Beer",
                   "pictures":[
@@ -119,4 +127,4 @@ def beer_view(request):
                     ]}
                  ],
             "coverflow_underhtml":'''photos -><div class="second-companion">(click images to advance)</div>'''}
-    
+
