@@ -20,6 +20,7 @@ def main(global_config, **settings):
 
     config.add_route('about', '/about')
     config.add_route('contact', '/contact')
+    config.add_route('beer', '/beer')
     config.add_route('main', '/')
     config.scan()
     return config.make_wsgi_app()

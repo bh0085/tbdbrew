@@ -1,6 +1,3 @@
-.cf2{
-}
-
 .coverflow-container{
     height:300px;
     width:100%;
@@ -132,19 +129,9 @@
             background-position:center center;
             background-color:black;
             cursor:pointer;
-            &.cf1{
-                background-image: url(/img/brew_images/Inspiration/Katscape.jpg);
-            }
-            &.cf2{
-                background-image: url(/img/brew_images/Inspiration/IsItArt.jpg);
-            }
-            &.cf3{
-                background-image: url(/img/brew_images/Inspiration/snake-charmer-1870.jpg);
-            }
+            background-repeat:no-repeat;
         }
     }
-
-
 
 
     .carousel-control{

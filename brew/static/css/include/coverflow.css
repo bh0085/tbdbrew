@@ -99,13 +99,8 @@
     margin-top: 0px;
     background-position: center center;
     background-color: black;
-    cursor: pointer; }
-    .carousel .carousel-inner .item.cf1 {
-      background-image: url(/img/brew_images/Inspiration/Katscape.jpg); }
-    .carousel .carousel-inner .item.cf2 {
-      background-image: url(/img/brew_images/Inspiration/IsItArt.jpg); }
-    .carousel .carousel-inner .item.cf3 {
-      background-image: url(/img/brew_images/Inspiration/snake-charmer-1870.jpg); }
+    cursor: pointer;
+    background-repeat: no-repeat; }
   .carousel .carousel-control {
     border-radius: 28px;
     border: 8px solid white;

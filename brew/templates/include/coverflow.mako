@@ -1,43 +1,27 @@
 <div class="coverflow-container">
   %if coverflow_info is not UNDEFINED:
   <div class="tab-content content-area">
-    %for k,v in coverflow_info.items():
-    
+    %for i,v in enumerate(coverflow_info):
+        
+    <div id="${v['id']}" class="unselectable carousel tab-pane ${'active' if i==0 else ''}" data-interval="10000">
+      <div class="carousel-inner">
+        %for i2,e2 in enumerate(v['pictures']):
+        <div class="item ${'active' if i2==0 else ''}" style="background-image:url(/img/brew_images/${e2['image_root']}/${e2['image_name']}.jpg); ${'background-position:{0};'.format(e2['image_position']) if 'image_position' in e2 else ''}; background-size:1200px;"></div>
+        %endfor
+      </div>    
+    </div>    
+
     %endfor
     <span class="overlay">
-      %for k,v in coverflow_info.items():
-      
       <div class="coverflow-thickborder"></div> 
       <ul class="nav nav-tabs coverflow-tabs">
-        <li class="active"><a href="#inspiring-art" data-toggle="tab">Art</a></li>
-        <li><a href="#inspiring-beer" data-toggle="tab">Beer</a></li>
-        <li><a href="#scrapbook" data-toggle="tab">Scrapbook</a></li>
-        <div class="tabs-companion">stuff that inspires us -><div class="second-companion">(click images to advance)</div></div>
+        
+        %for i,v in enumerate(coverflow_info):
+        <li class="${'active' if i==0 else ''}"><a href="#${v['id']}" data-toggle="tab">${v["title"]}</a></li>
+        %endfor
+        <div class="tabs-companion">${coverflow_underhtml | n}</div>
       </ul>
-      %endfor
     </span>
   </div>
   %endif
-    <div id="inspiring-art" class="unselectable carousel tab-pane active" data-interval="10000">
-      <!-- Carousel items -->
-      <div class="carousel-inner">
-        <div class="item active cf1"></div>
-        <div class="item cf2"></div>
-        <div class="item cf3"></div>
-      </div>
-    </div>
-
-    <div id="inspiring-beer" class="unselectable carousel tab-pane">
-      <!-- Carousel items -->
-      <div class="carousel-inner">
-      </div>
-    </div>
-
-    <div id="scrapbook" class="unselectable carousel tab-pane">
-      <!-- Carousel items -->
-      <div class="carousel-inner">
-      </div>
-    </div>
-    </span>
-  </div>
 </div>

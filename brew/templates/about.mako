@@ -1,7 +1,6 @@
 <%inherit file="base.mako"/>
 <%block name="content_html">
-<%include file="include/thumbnails.mako"/>
-
+<%include file="include/coverflow.mako"/>
 
 <div class="padded-content">
   <div class="impact page-header">
