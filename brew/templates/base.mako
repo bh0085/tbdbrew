@@ -14,6 +14,8 @@
     <script type="text/javascript" src="/js/cdn/backbone-min.js" ></script>
     <script type="text/javascript" src="/js/cdn/mustache.min.js" ></script>
     <script src="/js/deps/bootstrap/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/js/utils/coverflow.js"></script>
+
   </head>
   <body class="${request.matched_route.name}">
     <div class="header">
