@@ -118,7 +118,7 @@
         <div class="oneword">Distilling</div>
         <span class="caption">
           <h2>Fei Ann Ran</h2><h4>Hackerspace Distilling</h4>
-          <div class="manyword">Ann is an MIT graduate student who works with us to plan and develop our hackerspace distellery. She wishes to make it clear that she is not and has never constructed much less run a home distellery - to do so would be illegal.</div>
+          <div class="manyword">Ann is an MIT graduate student who works with us to plan and develop our hackerspace distellery. For legal purposes, she wishes to make it clear that she has never designed much less run a distellery in her garage or kitchen.</div>
         </span>
       </div>
     </li>
