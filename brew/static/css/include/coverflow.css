@@ -4,7 +4,35 @@
   position: relative;
   display: block; }
 
-.nav-tabs.nav-tabs.coverflow-tabs.coverflow-tabs {
+.nav-tabs.nav-tabs.coverflow-tabs.coverflow-tabs .tabs-companion {
+  z-index: 100;
+  position: absolute;
+  right: 100%;
+  margin-right: 10px;
+  top: 0px;
+  margin-top: 5px;
+  color: black;
+  opacity: 1;
+  width: 13.5em;
+  white-space: nowrap;
+  font-size: 1.1em;
+  text-align: left;
+  line-height: 24px; }
+  .nav-tabs.nav-tabs.coverflow-tabs.coverflow-tabs .tabs-companion .second-companion {
+    left: 0px;
+    margin-top: -5px;
+    position: absolute;
+    top: 100%; }
+
+body:not(.main) .coverflow-container .tab-pane {
+  border-bottom: 1px solid black; }
+body:not(.main) .coverflow-container .nav-tabs.nav-tabs.coverflow-tabs.coverflow-tabs > li.active > a {
+  color: black; }
+body:not(.main) .coverflow-container .nav-tabs.nav-tabs.coverflow-tabs.coverflow-tabs > li:not(.active) > a {
+  color: #eee; }
+
+body.main .nav-tabs.nav-tabs.coverflow-tabs.coverflow-tabs {
+  border-top: 1px solid black;
   margin-bottom: 0px;
   position: absolute;
   top: 100%;
@@ -19,33 +47,31 @@
   margin-top: 0px;
   border-right: 0px;
   box-shadow: 3px 3px 12px -3px rgba(0, 0, 0, 0.3); }
-  .nav-tabs.nav-tabs.coverflow-tabs.coverflow-tabs li:first-child {
+  body.main .nav-tabs.nav-tabs.coverflow-tabs.coverflow-tabs li:first-child {
     margin-left: 0px; }
-  .nav-tabs.nav-tabs.coverflow-tabs.coverflow-tabs a {
-    border-bottom-width: 0px;
-    padding-top: 6px;
+  body.main .nav-tabs.nav-tabs.coverflow-tabs.coverflow-tabs > li {
+    margin-bottom: 0px;
+    margin-left: .75em;
+    margin-right: .75em; }
+  body.main .nav-tabs.nav-tabs.coverflow-tabs.coverflow-tabs > li > a {
+    padding-top: 8px;
     padding-bottom: 8px;
-    padding-left: .75em;
-    padding-right: .75em; }
-  .nav-tabs.nav-tabs.coverflow-tabs.coverflow-tabs .tabs-companion {
-    z-index: 100;
-    position: absolute;
-    right: 100%;
-    margin-right: 10px;
-    top: 0px;
-    margin-top: 5px;
-    color: black;
-    opacity: 1;
-    width: 13.5em;
-    white-space: nowrap;
-    font-size: 1.1em;
-    text-align: left;
-    line-height: 24px; }
-    .nav-tabs.nav-tabs.coverflow-tabs.coverflow-tabs .tabs-companion .second-companion {
-      left: 0px;
-      margin-top: -5px;
-      position: absolute;
-      top: 100%; }
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    line-height: 18px;
+    border: 0px solid white;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px; }
+  body.main .nav-tabs.nav-tabs.coverflow-tabs.coverflow-tabs > .active > a {
+    color: white;
+    border: 0px solid white;
+    border-bottom-color: black;
+    border-bottom-width: 1px;
+    margin-bottom: -1px;
+    background-color: #000; }
+  body.main .nav-tabs.nav-tabs.coverflow-tabs.coverflow-tabs > li:not(.dropdown):not(.active) > a {
+    background-color: white; }
 
 .coverflow-container {
   /* controls overlay appearances */ }

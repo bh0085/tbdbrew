@@ -1,13 +1,3 @@
-.thumbnails-container {
-  margin-top: 1.5em;
-  text-align: center;
-  position: relative;
-  width: 100%; }
-  .thumbnails-container .thumbnails {
-    width: 800px;
-    margin-left: auto;
-    margin-right: auto; }
-
 .description {
   line-height: 1.5em; }
   .description ol, .description ul {
@@ -18,3 +8,58 @@
     .description ol > li, .description ul > li {
       margin-bottom: .5em;
       line-height: 1.5em; }
+
+body.about .thumbnails {
+  margin-top: 30px; }
+  body.about .thumbnails .span12 {
+    display: block; }
+  body.about .thumbnails li {
+    display: inline-block;
+    float: none;
+    position: relative;
+    cursor: pointer; }
+  body.about .thumbnails .caption {
+    padding: 0px; }
+  body.about .thumbnails li:hover .oneword, body.about .thumbnails li:hover .manyword {
+    color: rgba(0, 0, 0, 0.6); }
+  body.about .thumbnails li:not(:hover) .oneword, body.about .thumbnails li:not(:hover) .manyword {
+    color: rgba(0, 0, 0, 0.3); }
+  body.about .thumbnails li.active {
+    display: block; }
+    body.about .thumbnails li.active .w300 {
+      display: none; }
+    body.about .thumbnails li.active .oneword {
+      display: none; }
+  body.about .thumbnails li:not(.active) {
+    margin-bottom: 3em; }
+    body.about .thumbnails li:not(.active) .w1200 {
+      display: none; }
+    body.about .thumbnails li:not(.active) .manyword {
+      width: 100%;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis; }
+    body.about .thumbnails li:not(.active) .oneword {
+      bottom: 100%;
+      position: absolute;
+      left: 0px;
+      right: 0px; }
+    body.about .thumbnails li:not(.active) .caption {
+      position: absolute;
+      top: 100%;
+      left: 0px;
+      right: 0px;
+      height: 2.5em; }
+      body.about .thumbnails li:not(.active) .caption > h3, body.about .thumbnails li:not(.active) .caption h2, body.about .thumbnails li:not(.active) .caption h4 {
+        display: none; }
+  body.about .thumbnails .w1200 {
+    width: 600px;
+    max-width: 100%; }
+  body.about .thumbnails .manyword {
+    position: relative; }
+  body.about .thumbnails .oneword {
+    position: relative;
+    width: 100%;
+    left: 0px;
+    right: 0px;
+    text-align: center; }

@@ -1,5 +1,5 @@
 <div class="content">
-  <ul class="nav nav-tabs">
+  <ul class="nav nav-tabs marker-inverse">
     <li class="active"><a href="#submit" data-toggle="tab">Submit</a></li>
     <li><a href="#vote" data-toggle="tab">Vote</a></li>
     <li><a href="#rules" data-toggle="tab">Rules</a></li>

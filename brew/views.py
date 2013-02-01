@@ -128,3 +128,9 @@ def beer_view(request):
                  ],
             "coverflow_underhtml":'''photos -><div class="second-companion">(click images to advance)</div>'''}
 
+
+
+
+@view_config(route_name="financial", renderer="financial.mako")
+def financial_view(request):
+    return {}

@@ -1,15 +1,3 @@
-.thumbnails-container{   
-    margin-top:1.5em;
-    text-align:center;
-    position:relative;
-    width:100%;
-    .thumbnails{
-        width:800px;
-        margin-left:auto;
-        margin-right:auto;
-    }   
-} 
-
 
 .description{
     line-height:1.5em;
@@ -21,6 +9,90 @@
         >li{
             margin-bottom:.5em;
             line-height:1.5em;
+        }
+    }
+}
+body.about{
+    .thumbnails{
+        margin-top:30px;
+        .span12{
+            display:block;
+        }
+        li{
+            display:inline-block;
+            float:none;
+            position:relative;
+            cursor:pointer;
+        }
+
+        .caption{
+            padding:0px;
+        }
+        li:hover{
+            .oneword, .manyword{
+                color:rgba(0, 0, 0, .6);
+            }
+        }
+        li:not(:hover){
+            .oneword, .manyword{
+                color:rgba(0, 0, 0, .3);
+            }
+        }
+
+        li.active{
+            .w300{
+                display:none;
+            }
+            display:block;
+            .oneword{
+                display:none;
+            }
+        }
+
+        li:not(.active){
+            margin-bottom:3em;
+            .w1200{
+                display:none;
+            }
+            .manyword{
+                width:100%;
+                white-space:nowrap;
+                overflow:hidden;
+                text-overflow:ellipsis;
+            }
+            .oneword{
+                bottom:100%;
+                position:absolute;
+                left:0px;
+                right:0px;
+            }
+            .caption{
+                position:absolute;
+                top:100%;
+                left:0px;
+                right:0px;
+                height:2.5em;
+                >h3,h2,h4{
+                    display:none;
+                }
+            }
+        }
+        .w300{
+
+        }
+        .w1200{
+            width:600px;
+            max-width:100%;
+        }
+        .manyword{
+            position:relative;
+        }
+        .oneword{
+            position:relative;
+            width:100%;
+            left:0px;
+            right:0px;
+            text-align:center;
         }
     }
 }

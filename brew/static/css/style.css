@@ -4,7 +4,35 @@
   position: relative;
   display: block; }
 
-.nav-tabs.nav-tabs.coverflow-tabs.coverflow-tabs {
+.nav-tabs.nav-tabs.coverflow-tabs.coverflow-tabs .tabs-companion {
+  z-index: 100;
+  position: absolute;
+  right: 100%;
+  margin-right: 10px;
+  top: 0px;
+  margin-top: 5px;
+  color: black;
+  opacity: 1;
+  width: 13.5em;
+  white-space: nowrap;
+  font-size: 1.1em;
+  text-align: left;
+  line-height: 24px; }
+  .nav-tabs.nav-tabs.coverflow-tabs.coverflow-tabs .tabs-companion .second-companion {
+    left: 0px;
+    margin-top: -5px;
+    position: absolute;
+    top: 100%; }
+
+body:not(.main) .coverflow-container .tab-pane {
+  border-bottom: 1px solid black; }
+body:not(.main) .coverflow-container .nav-tabs.nav-tabs.coverflow-tabs.coverflow-tabs > li.active > a {
+  color: #000; }
+body:not(.main) .coverflow-container .nav-tabs.nav-tabs.coverflow-tabs.coverflow-tabs > li:not(.active) > a {
+  color: #eee; }
+
+body.main .nav-tabs.nav-tabs.coverflow-tabs.coverflow-tabs {
+  border-top: 1px solid black;
   margin-bottom: 0px;
   position: absolute;
   top: 100%;
@@ -19,33 +47,31 @@
   margin-top: 0px;
   border-right: 0px;
   box-shadow: 3px 3px 12px -3px rgba(0, 0, 0, 0.3); }
-  .nav-tabs.nav-tabs.coverflow-tabs.coverflow-tabs li:first-child {
+  body.main .nav-tabs.nav-tabs.coverflow-tabs.coverflow-tabs li:first-child {
     margin-left: 0px; }
-  .nav-tabs.nav-tabs.coverflow-tabs.coverflow-tabs a {
-    border-bottom-width: 0px;
-    padding-top: 6px;
+  body.main .nav-tabs.nav-tabs.coverflow-tabs.coverflow-tabs > li {
+    margin-bottom: 0px;
+    margin-left: .75em;
+    margin-right: .75em; }
+  body.main .nav-tabs.nav-tabs.coverflow-tabs.coverflow-tabs > li > a {
+    padding-top: 8px;
     padding-bottom: 8px;
-    padding-left: .75em;
-    padding-right: .75em; }
-  .nav-tabs.nav-tabs.coverflow-tabs.coverflow-tabs .tabs-companion {
-    z-index: 100;
-    position: absolute;
-    right: 100%;
-    margin-right: 10px;
-    top: 0px;
-    margin-top: 5px;
-    color: black;
-    opacity: 1;
-    width: 13.5em;
-    white-space: nowrap;
-    font-size: 1.1em;
-    text-align: left;
-    line-height: 24px; }
-    .nav-tabs.nav-tabs.coverflow-tabs.coverflow-tabs .tabs-companion .second-companion {
-      left: 0px;
-      margin-top: -5px;
-      position: absolute;
-      top: 100%; }
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    line-height: 18px;
+    border: 0px solid white;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px; }
+  body.main .nav-tabs.nav-tabs.coverflow-tabs.coverflow-tabs > .active > a {
+    color: white;
+    border: 0px solid white;
+    border-bottom-color: black;
+    border-bottom-width: 1px;
+    margin-bottom: -1px;
+    background-color: #000; }
+  body.main .nav-tabs.nav-tabs.coverflow-tabs.coverflow-tabs > li:not(.dropdown):not(.active) > a {
+    background-color: white; }
 
 .coverflow-container {
   /* controls overlay appearances */ }
@@ -182,16 +208,16 @@ body .impact {
   font-family: 'Oswald', sans-serif; }
 body .marker {
   font-family: 'Permanent Marker', cursive; }
+body .marker-inverse {
+  color: white;
+  font-family: 'Permanent Marker', cursive; }
 body .navbar:not(:hover) .nav {
   -webkit-transition: opacity 1.5s;
   opacity: .5; }
 body .nav {
   -webkit-transition: opacity .25s; }
-body .navbar, body .nav-tabs, body .afternav {
-  font-family: 'Permanent Marker', cursive;
+body .navbar-inverse li > a, body .navbar-inverse .brand {
   color: white; }
-  body .navbar.navbar-inverse li > a, body .navbar.navbar-inverse .brand, body .nav-tabs.navbar-inverse li > a, body .nav-tabs.navbar-inverse .brand, body .afternav.navbar-inverse li > a, body .afternav.navbar-inverse .brand {
-    color: white; }
 body .about-contest {
   cursor: pointer; }
 body .afternav {
@@ -201,16 +227,6 @@ body .afternav {
   -webkit-font-smoothing: antialiased; }
 
 /** page specific styles */
-.thumbnails-container {
-  margin-top: 1.5em;
-  text-align: center;
-  position: relative;
-  width: 100%; }
-  .thumbnails-container .thumbnails {
-    width: 800px;
-    margin-left: auto;
-    margin-right: auto; }
-
 .description {
   line-height: 1.5em; }
   .description ol, .description ul {
@@ -222,16 +238,71 @@ body .afternav {
       margin-bottom: .5em;
       line-height: 1.5em; }
 
-.nav-tabs.nav-tabs {
+body.about .thumbnails {
+  margin-top: 30px; }
+  body.about .thumbnails .span12 {
+    display: block; }
+  body.about .thumbnails li {
+    display: inline-block;
+    float: none;
+    position: relative;
+    cursor: pointer; }
+  body.about .thumbnails .caption {
+    padding: 0px; }
+  body.about .thumbnails li:hover .oneword, body.about .thumbnails li:hover .manyword {
+    color: rgba(0, 0, 0, 0.6); }
+  body.about .thumbnails li:not(:hover) .oneword, body.about .thumbnails li:not(:hover) .manyword {
+    color: rgba(0, 0, 0, 0.3); }
+  body.about .thumbnails li.active {
+    display: block; }
+    body.about .thumbnails li.active .w300 {
+      display: none; }
+    body.about .thumbnails li.active .oneword {
+      display: none; }
+  body.about .thumbnails li:not(.active) {
+    margin-bottom: 3em; }
+    body.about .thumbnails li:not(.active) .w1200 {
+      display: none; }
+    body.about .thumbnails li:not(.active) .manyword {
+      width: 100%;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis; }
+    body.about .thumbnails li:not(.active) .oneword {
+      bottom: 100%;
+      position: absolute;
+      left: 0px;
+      right: 0px; }
+    body.about .thumbnails li:not(.active) .caption {
+      position: absolute;
+      top: 100%;
+      left: 0px;
+      right: 0px;
+      height: 2.5em; }
+      body.about .thumbnails li:not(.active) .caption > h3, body.about .thumbnails li:not(.active) .caption h2, body.about .thumbnails li:not(.active) .caption h4 {
+        display: none; }
+  body.about .thumbnails .w1200 {
+    width: 600px;
+    max-width: 100%; }
+  body.about .thumbnails .manyword {
+    position: relative; }
+  body.about .thumbnails .oneword {
+    position: relative;
+    width: 100%;
+    left: 0px;
+    right: 0px;
+    text-align: center; }
+
+body.main .nav-tabs.nav-tabs {
   border-top: 1px solid black; }
-  .nav-tabs.nav-tabs a {
+  body.main .nav-tabs.nav-tabs a {
     -webkit-font-smoothing: antialiased;
     color: #333; }
-  .nav-tabs.nav-tabs > li {
+  body.main .nav-tabs.nav-tabs > li {
     margin-bottom: 0px;
     margin-left: .75em;
     margin-right: .75em; }
-  .nav-tabs.nav-tabs > li > a {
+  body.main .nav-tabs.nav-tabs > li > a {
     padding-top: 8px;
     padding-bottom: 8px;
     line-height: 18px;
@@ -241,12 +312,42 @@ body .afternav {
     border-radius: 0px;
     padding-left: 1.5em;
     padding-right: 1.5em; }
-  .nav-tabs.nav-tabs > .active > a {
+  body.main .nav-tabs.nav-tabs > .active > a {
     color: white;
     border: 0px solid white;
     border-bottom-color: black;
     border-bottom-width: 1px;
     margin-bottom: -1px;
     background-color: #000; }
-  .nav-tabs.nav-tabs > li:not(.active) > a {
+  body.main .nav-tabs.nav-tabs > li:not(.dropdown):not(.active) > a {
     background-color: white; }
+
+body.financial h2 {
+  padding-left: 20px; }
+body.financial .by-what-tab-content {
+  position: relative; }
+  body.financial .by-what-tab-content .fullbody-tab {
+    margin-bottom: 40px;
+    background-color: white; }
+  body.financial .by-what-tab-content .by-what-tabs {
+    box-shadow: 0px -6px 12px -3px rgba(0, 0, 0, 0.1) inset;
+    border-top: 1px lightgray solid;
+    padding-top: .75em;
+    padding-bottom: .75em;
+    background-color: #eee;
+    margin-top: .5em;
+    text-align: center;
+    width: 100%; }
+  body.financial .by-what-tab-content .nav-tabs {
+    padding-left: 20px; }
+  body.financial .by-what-tab-content .tab-pane {
+    padding-top: 20px;
+    padding-left: 20px;
+    background-color: white;
+    min-height: 100px; }
+    body.financial .by-what-tab-content .tab-pane dl {
+      padding-left: 30px; }
+      body.financial .by-what-tab-content .tab-pane dl > dd {
+        display: inline-block; }
+      body.financial .by-what-tab-content .tab-pane dl > dt {
+        display: inline-block; }

@@ -17,16 +17,16 @@ body .impact {
   font-family: 'Oswald', sans-serif; }
 body .marker {
   font-family: 'Permanent Marker', cursive; }
+body .marker-inverse {
+  color: white;
+  font-family: 'Permanent Marker', cursive; }
 body .navbar:not(:hover) .nav {
   -webkit-transition: opacity 1.5s;
   opacity: .5; }
 body .nav {
   -webkit-transition: opacity .25s; }
-body .navbar, body .nav-tabs, body .afternav {
-  font-family: 'Permanent Marker', cursive;
+body .navbar-inverse li > a, body .navbar-inverse .brand {
   color: white; }
-  body .navbar.navbar-inverse li > a, body .navbar.navbar-inverse .brand, body .nav-tabs.navbar-inverse li > a, body .nav-tabs.navbar-inverse .brand, body .afternav.navbar-inverse li > a, body .afternav.navbar-inverse .brand {
-    color: white; }
 body .about-contest {
   cursor: pointer; }
 body .afternav {

@@ -24,6 +24,10 @@ body{
     .marker{
         font-family: 'Permanent Marker', cursive;
     }
+    .marker-inverse{
+        color:white;
+        font-family: 'Permanent Marker', cursive;
+    }
 
     .navbar:not(:hover){
         .nav{
@@ -35,17 +39,13 @@ body{
         -webkit-transition: opacity .25s;
     }
 
-
-    .navbar, .nav-tabs, .afternav{
-        font-family: 'Permanent Marker', cursive;
-        color:white;
-        &.navbar-inverse{
-            li>a, .brand{
-                color:white;
-                
-            }
+    .navbar-inverse{
+        li>a, .brand{
+            color:white;
+            
         }
     }
+    
     .about-contest{
         cursor:pointer;
     }

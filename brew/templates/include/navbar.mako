@@ -1,4 +1,4 @@
-<div class="navbar navbar-inverse unselectable">
+<div class="navbar navbar-inverse unselectable marker-inverse">
   <div class="navbar-inner">
     <div class="container"> 
       <!-- Be sure to leave the brand out there if you want it shown -->
@@ -12,7 +12,7 @@
     </div>
   </div>
 </div>
-<div class="afternav collapse" id="afternav">
+<div class="afternav collapse marker-inverse" id="afternav">
   <p>TBD Brewing is a solar powered, community supported Davis Square Brewery that will open in Summer 2013 but still awaits a perfect backronym!</p>
   <p>Suggest one we use (or just one we really like) and we'll reward you richly: one year of free beer and musical events.</p>
 </div>
