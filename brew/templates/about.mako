@@ -5,10 +5,10 @@
 <div class="padded-content">
 
   <div class="impact page-header">
-    <h2 >TBD Crafts Fine Local Beer</h2>
-    <h4 class="impact">Engaging Academics and Homebrewers of Greater Boston</h4>
+    <h1 >TBD crafts local beer</h1>
+    <h3 class="impact">Engaging the academics and homebrewers of Greater Boston</h3>
   </div>
-  <h4 class="impact">Our Mission</h4>
+  <h1 class="impact">Mission</h1>
   <div class="row-fluid">
     <div class="span7 offset2">
       <div class="description">
@@ -123,7 +123,38 @@
       </div>
     </li>
   </ul>
-  <br/><br/>
+
+  <h1 class="page-header impact">Brewery</h1>
+  <h3 class="impact">Main System</h3>
+
+  <ul class="thumbnails">
+    <li class="span3">
+      <div class="thumbnail">
+        <img class="w300" src="/img/system/main_1_300x200.jpg" alt="">
+        <img class="w1200" src="/img/system/main_1_1200x800.jpg" alt="">
+      </div>
+    </li>
+    <li class="span3">
+      <div class="thumbnail">
+        <img class="w300" src="/img/system/main_2_300x200.jpg" alt="">
+        <img class="w1200" src="/img/system/main_2_1200x800.jpg" alt="">
+      </div>
+    </li>
+    <li class="span3">
+      <div class="thumbnail">
+        <img class="w300" src="/img/system/main_3_300x200.jpg" alt="">
+        <img class="w1200" src="/img/system/main_3_1200x800.jpg" alt="">
+      </div>
+    </li>
+  </ul>
+  <h3 class="impact">Pilot System</h3>
+  <h3 class="impact">Building</h3>
+  <span class="row"><span class="span7 offset2">... coming soon.</span></span>
+  <h3 class="impact">Events</h3>
+  <span class="row"><span class="span7 offset2">... coming soon.</span></span>
+  <h3 class="impact">Hackerspace</h3>
+  <span class="row"><span class="span7 offset2">... coming soon.</span></span>
+
   <h2 class="impact">Interested? Drop Us A Line - <a href=mailto:tbdbrew@gmail.com>tbdbrew@gmail.com</a></h2>
 
 </div>
