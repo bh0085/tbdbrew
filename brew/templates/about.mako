@@ -35,7 +35,7 @@
         <div class="oneword">Outreach</div>
         <span class="caption">
           <h2>Vince Tursi</h2><h4>Brewmaster</h4>
-          <div class="manyword">Vince serves as our brewmaster. He is an avid homebrewer and has spent two and a half years meticulously crafting and perfecting dozens of recipes that will serve as the basis for our operation.  He has received numerous brewing awards throughout the Northeast and holds a Bachelor of Science in Business Administration from Northeastern University.  He is currently employed in Boston’s financial sector performing technology risk assessment, and brews or meets with fellow brewers as much as possible in his free time.</div>
+          <div class="manyword">Vince serves as our brewmaster. He is an avid homebrewer and has spent three years meticulously crafting and perfecting dozens of recipes that will serve as the basis for our operation.  He has received numerous brewing awards throughout the Northeast and holds a Bachelor of Science in Business Administration from Northeastern University.  He is currently employed in Boston’s financial sector performing technology risk assessment, and brews or meets with fellow brewers as much as possible in his free time.</div>
         </span>
       </div>
     </li>
@@ -46,7 +46,7 @@
         <div class="oneword">Outreach</div>
         <span class="caption">
           <h2>Benjamin Holmes</h2><h4>Outreach</h4>
-          <div class="manyword">Ben directs outreach and sales. He holds a post as an Associated Researcher at the Broad Institute for Genomics and is finishing his Master’s degree in preparation for a leave of absence from an NSF Fellowship at MIT’s Computational Biology Lab. He is an experienced entrepreneur and enjoys getting into capers.</div>
+          <div class="manyword">Ben directs outreach and sales. Enrolled as a graduate student & NSF Fellow at MIT’s Computational Biology Lab, he spends a fair bit of his time at the Broad Institute for Genomics - mostly designing this website. He is an experienced entrepreneur and enjoys brewing and getting involved in elaborate capers.</div>
         </span>
       </div>
     </li>
@@ -68,7 +68,7 @@
         <div class="oneword">Yeast</div>
         <span class="caption">
           <h2>Ronn Friedlander</h2><h4>Yeast Lab</h4>
-          <div class="manyword">Ronn Friedlander will direct operations of the yeast microbiology and quality control labs. Ronn is completing his doctoral work as an NSF fellow at MIT and Harvard, having published peer-reviewed studies in the biochemistry and microbiology fields. He holds a double Bachelor of Science degree in Biomedical Engineering and Ecology from Rutgers University and a Master of Philosophy degree in Clinical Biochemistry from Cambridge University.</div>
+          <div class="manyword">Ronn Friedlander will direct operations of the yeast microbiology and quality control labs. Ronn is doing his doctoral work as an NSF fellow at MIT and Harvard, having published peer-reviewed studies in the biochemistry and microbiology fields. He holds a double Bachelor of Science degree in Biomedical Engineering and Ecology from Rutgers University and a Master of Philosophy degree in Clinical Biochemistry from Cambridge University.</div>
         </span>
       </div>
     </li>
@@ -79,7 +79,7 @@
         <div class="oneword">Art</div>
         <span class="caption">
           <h2>Michael Semenec</h2><h4>Art</h4>
-          <div class="manyword"></div>
+          <div class="manyword">Mike directs art and marketing at TBD and holds a Bachelor's degree in design with three years of experience in branding, marketing and production printing. He is also an avid homebrewer and has worked closely with Vince in the development of our brew recipes. He currently works as a designer and teaches at The Art Institute of Boston.</div>
         </span>
       </div>
     </li>
@@ -93,8 +93,8 @@
         <img class="w1200" src="/img/team/feng/1200x800.jpg" alt="">
         <div class="oneword">Professor</div>
         <span class="caption">
-          <h2>Feng Zhang</h2><h4></h4>
-          <div class="manyword"></div>
+          <h2>Feng Zhang</h2><h4>Scientific Advisor</h4>
+          <div class="manyword">Feng Zhang mentors us at MIT, steering our scientific staff through wet lab boondoggles and our business team from expensive quagmires. He is core faculty at the Broad Institute, a pioneer of <a href="http://en.wikipedia.org/wiki/Optogenetics">optogenetics</a> and currently leads a lab developing a <a href="http://zlab.mit.edu/resources.html">broad swath of genomic engineering technologies</a>.</div>
         </span>
       </div>
     </li>
@@ -103,10 +103,10 @@
       <div class="thumbnail">
         <img class="w300" src="/img/team/erin/300x200.jpg" alt="">
         <img class="w1200" src="/img/team/erin/1200x800.jpg" alt="">
-        <div class="oneword">Science Admin</div>
+        <div class="oneword">Admin</div>
         <span class="caption">
-          <h2>Erin Blackwell</h2><h4></h4>
-          <div class="manyword"></div>
+          <h2>Erin Blackwell</h2><h4>Scientific Administration</h4>
+          <div class="manyword">Erin works with us at MIT and the Broad Institute on scientific outreach and to maintain general order. She ensures that our occasional leaves of abscence from academia occur on a strictly voluntary basis. </div>
         </span>
       </div>
     </li>
@@ -117,8 +117,8 @@
         <img class="w1200" src="/img/team/ann/1200x800.jpg" alt="">
         <div class="oneword">Distilling</div>
         <span class="caption">
-          <h2>Fei Ann Ran</h2><h4>Distilling Hackerspace</h4>
-          <div class="manyword"></div>
+          <h2>Fei Ann Ran</h2><h4>Hackerspace Distilling</h4>
+          <div class="manyword">Ann is an MIT graduate student who works with us to plan and develop our hackerspace distellery. She wishes to make it clear that she is not and has never constructed much less run a home distellery - to do so would be illegal.</div>
         </span>
       </div>
     </li>
