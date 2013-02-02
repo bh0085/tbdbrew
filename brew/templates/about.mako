@@ -32,7 +32,7 @@
       <div class="thumbnail">
         <img class="w300" src="/img/team/vince/300x200.jpg" alt="">
         <img class="w1200" src="/img/team/vince/1200x800.jpg" alt="">
-        <div class="oneword">Outreach</div>
+        <div class="oneword">Brewmaster</div>
         <span class="caption">
           <h2>Vince Tursi</h2><h4>Brewmaster</h4>
           <div class="manyword">Vince serves as our brewmaster. He is an avid homebrewer and has spent three years meticulously crafting and perfecting dozens of recipes that will serve as the basis for our operation.  He has received numerous brewing awards throughout the Northeast and holds a Bachelor of Science in Business Administration from Northeastern University.  He is currently employed in Boston’s financial sector performing technology risk assessment, and brews or meets with fellow brewers as much as possible in his free time.</div>
@@ -148,12 +148,13 @@
     </li>
   </ul>
   <h3 class="impact">Pilot System</h3>
+  <ul class="thumbnails">
+  </ul>
   <h3 class="impact">Building</h3>
-  <span class="row"><span class="span7 offset2">... coming soon.</span><br/></span>
-  <h3 class="impact">Events</h3>
-  <span class="row"><span class="span7 offset2">... coming soon.</span><br/></span>
+  <ul class="thumbnails">
+  </ul>
   <h3 class="impact">Hackerspace</h3>
-  <span class="row"><span class="span7 offset2">... coming soon.</span><br/></span>
+  <div class="row"><div class="span7 offset2">... coming soon.</div><br/></div>
 
   <h2 class="impact">Interested? Drop Us A Line - <a href=mailto:tbdbrew@gmail.com>tbdbrew@gmail.com</a></h2>
 
