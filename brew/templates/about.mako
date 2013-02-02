@@ -149,11 +149,11 @@
   </ul>
   <h3 class="impact">Pilot System</h3>
   <h3 class="impact">Building</h3>
-  <span class="row"><span class="span7 offset2">... coming soon.</span></span>
+  <span class="row"><span class="span7 offset2">... coming soon.</span><br/></span>
   <h3 class="impact">Events</h3>
-  <span class="row"><span class="span7 offset2">... coming soon.</span></span>
+  <span class="row"><span class="span7 offset2">... coming soon.</span><br/></span>
   <h3 class="impact">Hackerspace</h3>
-  <span class="row"><span class="span7 offset2">... coming soon.</span></span>
+  <span class="row"><span class="span7 offset2">... coming soon.</span><br/></span>
 
   <h2 class="impact">Interested? Drop Us A Line - <a href=mailto:tbdbrew@gmail.com>tbdbrew@gmail.com</a></h2>
 
