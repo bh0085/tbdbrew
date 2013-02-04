@@ -46,7 +46,7 @@
         <div class="oneword">Outreach</div>
         <span class="caption">
           <h2>Benjamin Holmes</h2><h4>Outreach</h4>
-          <div class="manyword">Ben directs outreach and sales. Enrolled as a graduate student & NSF Fellow at MIT’s Computational Biology Lab, he spends a fair bit of his time at the Broad Institute for Genomics - mostly designing this website. He is an experienced entrepreneur and enjoys brewing and getting involved in elaborate capers.</div>
+          <div class="manyword">Ben directs outreach at the TBD. He once studied Quantum Field Theory and worked for NASA on the Cassini mission but has been coaxed into genomics and synthetic biology as a graduate student-slash-NSF Fellow at MIT where he hacks genomes to build detailed maps of complex brains. He is an experienced entrepreneur and enjoys brewing and getting involved in elaborate capers.</div>
         </span>
       </div>
     </li>
