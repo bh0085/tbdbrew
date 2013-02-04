@@ -169,8 +169,7 @@
     </li>
   </ul>
   <h3 class="impact">Building</h3>
-  <ul class="thumbnails">
-  </ul>
+  <div class="row"><div class="span7 offset2">... coming soon.</div><br/></div>
   <h3 class="impact">Hackerspace</h3>
   <div class="row"><div class="span7 offset2">... coming soon.</div><br/></div>
 
