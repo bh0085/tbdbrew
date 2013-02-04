@@ -151,20 +151,20 @@
   <ul class="thumbnails">
     <li class="span3">
       <div class="thumbnail">
-        <img class="w300" src="/img/system/main_1_300x200.jpg" alt="">
-        <img class="w1200" src="/img/system/main_1_1200x800.jpg" alt="">
+        <img class="w300" src="/img/system/pilot_1_300x200.jpg" alt="">
+        <img class="w1200" src="/img/system/pilot_1_1200x800.jpg" alt="">
       </div>
     </li>
     <li class="span3">
       <div class="thumbnail">
-        <img class="w300" src="/img/system/main_2_300x200.jpg" alt="">
-        <img class="w1200" src="/img/system/main_2_1200x800.jpg" alt="">
+        <img class="w300" src="/img/system/pilot_2_300x200.jpg" alt="">
+        <img class="w1200" src="/img/system/pilot_2_1200x800.jpg" alt="">
       </div>
     </li>
     <li class="span3">
       <div class="thumbnail">
-        <img class="w300" src="/img/system/main_3_300x200.jpg" alt="">
-        <img class="w1200" src="/img/system/main_3_1200x800.jpg" alt="">
+        <img class="w300" src="/img/system/pilot_3_300x200.jpg" alt="">
+        <img class="w1200" src="/img/system/pilot_3_1200x800.jpg" alt="">
       </div>
     </li>
   </ul>
