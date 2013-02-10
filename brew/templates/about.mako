@@ -46,7 +46,7 @@
         <div class="oneword">Outreach</div>
         <span class="caption">
           <h2>Benjamin Holmes</h2><h4>Outreach</h4>
-          <div class="manyword">Ben directs outreach at the TBD. He once studied Quantum Field Theory and worked for NASA on the Cassini mission but has been coaxed into genomics and synthetic biology as a graduate student-slash-NSF Fellow at MIT where he hacks genomes to build detailed maps of complex brains. He is an experienced entrepreneur and enjoys brewing and getting involved in elaborate capers.</div>
+          <div class="manyword">Ben directs outreach at the TBD. He once studied Quantum Field Theory and worked for NASA on the Cassini mission but finds himself presently a graduate student-slash-NSF Fellow at MIT hacking genomes to build detailed maps of complex brains. He enjoys brewing and getting involved in elaborate capers.</div>
         </span>
       </div>
     </li>
@@ -118,7 +118,7 @@
         <div class="oneword">Distilling</div>
         <span class="caption">
           <h2>Fei Ann Ran</h2><h4>Hackerspace Distilling</h4>
-          <div class="manyword">Ann is an MIT graduate student who works with us to plan and develop our hackerspace distellery. For legal purposes, she wishes to make it clear that she has never designed much less run a distellery in her garage or kitchen.</div>
+          <div class="manyword">Ann is an MIT graduate student who works with us to plan and develop our hackerspace distellery. For legal purposes, she wishes to make it clear that she has never designed much less run a distellery in her garage or kitchen. We are allowed to tell you that she experiments with infusion her own liqueurs, which has led to the stockpiling of many kinds of alcohol in the kitchen...</div>
         </span>
       </div>
     </li>
