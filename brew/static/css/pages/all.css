@@ -2,6 +2,9 @@
 .padded-content {
   padding: 1.5em; }
 
+a {
+  cursor: pointer; }
+
 .footer {
   margin-top: 2em;
   border-top: 1px solid #efefef;
@@ -14,8 +17,6 @@
   -webkit-user-select: none;
   user-select: none; }
 
-body .impact {
-  font-family: 'Oswald', sans-serif; }
 body .marker {
   font-family: 'Permanent Marker', cursive; }
 body .marker-inverse {

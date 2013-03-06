@@ -2,6 +2,10 @@
     padding:1.5em;
 }
 
+a{
+    cursor:pointer;
+}
+
 .footer{
     margin-top:2em;
     border-top: 1px solid #efefef;
@@ -19,7 +23,7 @@
 
 body{
     .impact{
-        font-family: 'Oswald', sans-serif;
+        //font-family: 'Oswald', sans-serif;
     }
     .marker{
         font-family: 'Permanent Marker', cursive;

@@ -2,17 +2,20 @@
   <div class="navbar-inner">
     <div class="container"> 
       <!-- Be sure to leave the brand out there if you want it shown -->
-      <a class="brand" href="/">TBD Brewery Name Contest</a>
+      <a class="brand" href="/">TBD Brewing</a>
       <ul class="nav about-contest"> <li><a data-toggle="collapse" data-target=".afternav">info>></a></li></ul>
       <!-- Everything you want hidden at 940px or less, place within here -->
       <ul class="nav pull-right">
-        <li><a href="/about">About Us</a></li>
-        <li><a href="/beer">Our Beer</a></li>        
+        <li><a href="/about">About</a></li>
+        <li><a href="/beer">Beer</a></li>        
+        <li><a href="/science">Science</a></li>        
+        <li><a href="/show">Show</a></li>        
       </ul>
     </div>
   </div>
 </div>
-<div class="afternav collapse marker-inverse" id="afternav">
-  <p>TBD Brewing is a solar powered, community supported Davis Square Brewery that will open in Summer 2013 but still awaits a perfect backronym!</p>
-  <p>Suggest one we use (or just one we really like) and we'll reward you richly: one year of free beer and musical events.</p>
+<div class="padded afternav collapse marker-inverse" style="color:white; -webkit-font-smoothing:antialiased;" id="afternav">
+  
+    TBD Brewing is a community supported Brewery and Fermentation Lab moving into Davis Square Summer 2013! We brew fine beers while running a research lab that enables our community to develop recipes and techniques for brewing and beyond.
+    <br/><br/>
 </div>

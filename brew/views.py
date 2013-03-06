@@ -69,6 +69,7 @@ def main_view(request):
                  sb_stuff],
             "coverflow_underhtml":'''stuff that inspires us -><div class="second-companion">(click images to advance)</div>'''}
 
+
 @view_config(route_name='about', renderer='about.mako')
 def about_view(request):
     return {"coverflow_info":
@@ -127,6 +128,31 @@ def beer_view(request):
                     ]}
                  ],
             "coverflow_underhtml":'''photos -><div class="second-companion">(click images to advance)</div>'''}
+
+@view_config(route_name="science", renderer = "science.mako")
+def science_view(request):
+   return {"coverflow_info":[
+                 {"id":"science",
+                  "title":"Science",
+                  "pictures":[
+                    {"image_root":"ourbeer",
+                     "image_name":"tubes"},
+                    ]}
+                 ],
+            "coverflow_underhtml":'''photos -><div class="second-companion">(click images to advance)</div>'''}
+
+@view_config(route_name="show", renderer = "show.mako")
+def show_view(request):
+    return {"coverflow_info":[
+            {"id":"show",
+             "title":"Show",
+             "pictures":[
+                    {"image_root":"ourbeer",
+                     "image_name":"beginnings"}
+                   ]}
+            ],
+            "coverflow_underhtml":'''photos -><div class="second-companion">(click images to advance)</div>'''}
+
 
 
 
