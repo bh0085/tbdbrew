@@ -3,15 +3,13 @@
 <%include file="include/coverflow.mako"/>
 <div class="content">
   <div class="header" style="padding-top:20px; width:100%; text-align:center;">
-    <h1 class="page-header">This page is pretty empty!</h1>
-    <h3>Perhaps you're looking for: </h3><h3 class="show-link-container"><a href=http://en.wikipedia.org/wiki/Flight_of_the_Conchords_(TV_series)>Flight of the Conchords</a></h3><h3>[<a onClick="randomShow()">random</a>]</h3> 
-  </div>
-  <div class="header">
-
-  <div class="header" style="padding-top:20px; width:100%; text-align:center;">
-    <h1 class="page-header">Or Check out our Video!</h1>
+    <h1 class="page-header">Three Minute Video is Up!</h1>
     <iframe src="http://player.vimeo.com/video/59803318" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe> <p><a href="http://vimeo.com/59803318">First Days of TBD Brewing LLC</a> from <a href="http://vimeo.com/user16506567">ben holmes</a> on <a href="http://vimeo.com">Vimeo</a>.</p>
+  </div>
+  <div class="header" style="padding-top:20px; width:100%; text-align:center;">
+    <h1 class="page-header">But perhaps you were looking for: </h1><h3 class="show-link-container"><a href=http://en.wikipedia.org/wiki/Flight_of_the_Conchords_(TV_series)>Flight of the Conchords</a></h3><h3>[<a onClick="randomShow()">random</a>]</h3>
 </div>
+
 
 <script type="text/javascript">
   shows=[
