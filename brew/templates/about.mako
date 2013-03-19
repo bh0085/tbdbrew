@@ -30,17 +30,6 @@
   <ul class="thumbnails">
     <li class="span3">
       <div class="thumbnail">
-        <img class="w300" src="/img/team/vince/300x200.jpg" alt="">
-        <img class="w1200" src="/img/team/vince/1200x800.jpg" alt="">
-        <div class="oneword">Brewmaster</div>
-        <span class="caption">
-          <h2>Vince Tursi</h2><h4>Brewmaster</h4>
-          <div class="manyword">Vince serves as our brewmaster. He is an avid homebrewer and has spent three years meticulously crafting and perfecting dozens of recipes that will serve as the basis for our operation.  He has received numerous brewing awards throughout the Northeast and holds a Bachelor of Science in Business Administration from Northeastern University.  He is currently employed in Boston’s financial sector performing technology risk assessment, and brews or meets with fellow brewers as much as possible in his free time.</div>
-        </span>
-      </div>
-    </li>
-    <li class="span3">
-      <div class="thumbnail">
         <img class="w300" src="/img/team/ben/300x200.jpg" alt="">
         <img class="w1200" src="/img/team/ben/1200x800.jpg" alt="">
         <div class="oneword">Outreach</div>
@@ -69,17 +58,6 @@
         <span class="caption">
           <h2>Ronn Friedlander</h2><h4>Yeast Lab</h4>
           <div class="manyword">Ronn Friedlander will direct operations of the yeast microbiology and quality control labs. Ronn is doing his doctoral work as an NSF fellow at MIT and Harvard, having published peer-reviewed studies in the biochemistry and microbiology fields. He holds a double Bachelor of Science degree in Biomedical Engineering and Ecology from Rutgers University and a Master of Philosophy degree in Clinical Biochemistry from Cambridge University.</div>
-        </span>
-      </div>
-    </li>
-    <li class="span3">
-      <div class="thumbnail">
-        <img class="w300" src="/img/team/mike/300x200.jpg" alt="">
-        <img class="w1200" src="/img/team/mike/1200x800.jpg" alt="">
-        <div class="oneword">Art</div>
-        <span class="caption">
-          <h2>Michael Semenec</h2><h4>Art</h4>
-          <div class="manyword">Mike directs art and marketing at TBD and holds a Bachelor's degree in design with three years of experience in branding, marketing and production printing. He is also an avid homebrewer and has worked closely with Vince in the development of our brew recipes. He currently works as a designer and teaches at The Art Institute of Boston.</div>
         </span>
       </div>
     </li>
