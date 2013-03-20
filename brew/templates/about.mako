@@ -4,46 +4,56 @@
 
 <div class="padded-content">
 
-  <div class="impact page-header">
+  <div class="impact">
     <h1 >TBD crafts local beer</h1>
     <h3 class="impact">Engaging the academics and homebrewers of Greater Boston</h3>
   </div>
-  <h1 class="impact">Vision</h1>
-  <div class="row-fluid">
-    <div class="span7 offset2">
-      <div class="description">
-        <p>At TBD, we aim to craft fine beers while advancing the homebrewing community of Davis Square and the Boston Area. We operate locally, devoting our energy to:</p>
-        <ol>
-          <li>Brewing fine Belgian-influenced American beers.</li>
-          <li>Teaching homebrewers to operate small scale commercial brewing equipment.</li>
-          <li>Maintaining and studying yeast strains with the DIY Bio Community.</li>
-          <li>Pioneering novel brew technologies with researchers and homebrewers.</li>
-        </ol>
-        <p>We are committed to building a flourishing spot in a beautiful space that will draw people to Davis Square while contributing to its development and diversity.</p>
+
+  <ul class="nav nav-tabs marker-inverse">
+    <li class="active"><a href="#vision" data-toggle="tab">Vision</a></li>
+    <li><a href="#mission" data-toggle="tab">Mission</a></li>
+  </ul>
+  <div class="tab-content content-area">
+    <span id="vision" class="tab-pane active">
+      <h1 class="impact">Vision</h1>
+      <div class="row-fluid">
+        <div class="span7 offset2">
+          <div class="description">
+            <p>At TBD, we aim to craft fine beers while advancing the homebrewing community of Davis Square and the Boston Area. We operate locally and aim to:</p>
+            <ol>
+              <li>Brew fine Belgian-influenced American beers.</li>
+              <li>Teach aspiring brewers to operate commercial equipment.</li>
+              <li>Study yeast strains with the DIY Bio Community.</li>
+              <li>Develop technology with researchers and homebrewers.</li>
+            </ol>
+            <p>We are committed to building a flourishing spot in a beautiful space that will draw people to Davis Square while contributing to its development and diversity.</p>
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
-  
-  <h1 class="impact">Mission</h1>
-  <div class="row-fluid">
-    <div class="span7 offset2">
-      <div class="description">
-        TBD creates satisfying beers in a central location serving a thirsty community. We reach out to local businesses and homebrewers to: 
-        <ul>
-          <li>Involve the community in manufacture and education.</li>
-          <li>Develop technology to ensure quality and push the envelope.</li>
-          <li>Operate with respect for environment and community.</li>
-          <li>Outreach extensively to retailers of local food and drinks.</li>
-        </ul>
-        and strive for early growth by
-        <ul>
-          <li>Leasing a space with substantial reserved capacity.</li>
-          <li>Installing an energy efficient brew system supporting 10x our initial production.</li>
-          <li>Choosing a centralized location allowing us to sell on site while efficiently distributing to local retailers.</li>
-        </ul>
-        aiming to build a regional brand suitable in five years.
+    </span>  
+    <span id="mission" class="tab-pane">
+      <h1 class="impact">Mission</h1>
+      <div class="row-fluid">
+        <div class="span7 offset2">
+          <div class="description">
+            TBD creates satisfying beers in a central location serving a thirsty community. We achieve our vision by: 
+            <ul>
+              <li>Involving the community in manufacture and education.</li>
+              <li>Developing technology to ensure quality and push the envelope.</li>
+              <li>Operating with respect for our environment and town.</li>
+              <li>Outreaching extensively to retailers of local food and drinks.</li>
+            </ul>
+            and strive to optimize early growth by:
+            <ul>
+              <li>Leasing a space with substantial reserved capacity.</li>
+              <li>Installing an energy efficient brew system supporting 10x our initial production.</li>
+              <li>Choosing a location which allow us to sell on site while engaging in efficient self-distribution.</li>
+              <li>Marketing ourselves locally and developing a series for national television.</li>
+            </ul>
+          </div>
+        </div>
       </div>
-    </div>
+    </span>
   </div>
 
   <h1 class="page-header impact">Team</h1>
