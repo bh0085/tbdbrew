@@ -35,7 +35,7 @@
       <h1 class="impact">Mission</h1>
       <div class="row-fluid">
         <div class="span7 offset2">
-          <div class="description">
+          <div class="">
             TBD aims to create satisfying beers in a central location serving a thirsty community. Our team works toward this vision by focusing on core operational objectives:
             <ul>
               <li>Developing recipes and technology to ensure quality and push the envelope.</li>
