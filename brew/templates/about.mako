@@ -8,22 +8,43 @@
     <h1 >TBD crafts local beer</h1>
     <h3 class="impact">Engaging the academics and homebrewers of Greater Boston</h3>
   </div>
-  <h1 class="impact">Mission</h1>
+  <h1 class="impact">Vision</h1>
   <div class="row-fluid">
     <div class="span7 offset2">
       <div class="description">
-        <p>At TBD, we aim to craft fine beers while advancing the homebrewing community of Davis Square and the Boston Area. We sustain ourselves on solar power and operate locally, devoting our energy and space to:</p>
+        <p>At TBD, we aim to craft fine beers while advancing the homebrewing community of Davis Square and the Boston Area. We operate locally, devoting our energy to:</p>
         <ol>
           <li>Brewing fine Belgian-influenced American beers.</li>
           <li>Teaching homebrewers to operate small scale commercial brewing equipment.</li>
           <li>Maintaining and studying yeast strains with the DIY Bio Community.</li>
           <li>Pioneering novel brew technologies with researchers and homebrewers.</li>
         </ol>
-        <p>With eateries, homebrew suppliers and organizations, TBD will reach out to the growing homebrew community and enable its members to gather, teach and learn on a currently unreachable scale. We are committed to building a flourishing spot in a beautiful space that will draw people to Davis Square while contributing to its development and diversity.</p>
+        <p>We are committed to building a flourishing spot in a beautiful space that will draw people to Davis Square while contributing to its development and diversity.</p>
       </div>
     </div>
   </div>
- 
+  
+  <h1 class="impact">Mission</h1>
+  <div class="row-fluid">
+    <div class="span7 offset2">
+      <div class="description">
+        TBD creates satisfying beers in a central location serving a thirsty community. We reach out to local businesses and homebrewers to: 
+        <ul>
+          <li>Involve the community in manufacture and education.</li>
+          <li>Develop technology to ensure quality and push the envelope.</li>
+          <li>Operate with respect for environment and community.</li>
+          <li>Outreach extensively to retailers of local food and drinks.</li>
+        </ul>
+        and strive for early growth by
+        <ul>
+          <li>Leasing a space with substantial reserved capacity.</li>
+          <li>Installing an energy efficient brew system supporting 10x our initial production.</li>
+          <li>Choosing a centralized location allowing us to sell on site while efficiently distributing to local retailers.</li>
+        </ul>
+        aiming to build a regional brand suitable in five years.
+      </div>
+    </div>
+  </div>
 
   <h1 class="page-header impact">Team</h1>
   <h3 class="impact">Founders</h3>
@@ -146,11 +167,6 @@
       </div>
     </li>
   </ul>
-  <h3 class="impact">Building</h3>
-  <div class="row"><div class="span7 offset2">... coming soon.</div><br/></div>
-  <h3 class="impact">Hackerspace</h3>
-  <div class="row"><div class="span7 offset2">... coming soon.</div><br/></div>
-
   <h2 class="impact">Interested? Drop Us A Line - <a href=mailto:tbdbrew@gmail.com>tbdbrew@gmail.com</a></h2>
 
 </div>
