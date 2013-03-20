@@ -36,14 +36,14 @@
       <div class="row-fluid">
         <div class="span7 offset2">
           <div class="description">
-            TBD creates satisfying beers in a central location serving a thirsty community. We achieve our vision by: 
+            TBD aims to create satisfying beers in a central location serving a thirsty community. Our team works toward this vision by focusing on core operational objectives:
             <ul>
+              <li>Developing recipes and technology to ensure quality and push the envelope.</li>
               <li>Involving the community in manufacture and education.</li>
-              <li>Developing technology to ensure quality and push the envelope.</li>
               <li>Operating with respect for our environment and town.</li>
               <li>Outreaching extensively to retailers of local food and drinks.</li>
             </ul>
-            and strive to optimize early growth by:
+            And strives to optimize early growth by:
             <ul>
               <li>Leasing a space with substantial reserved capacity.</li>
               <li>Installing an energy efficient brew system supporting 10x our initial production.</li>
