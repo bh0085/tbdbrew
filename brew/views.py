@@ -115,7 +115,7 @@ def show_view(request):
             {"id":"show",
              "title":"Show",
              "pictures":[inspiringart_stuff],
-            "coverflow_underhtml":'''photos -><div class="second-companion">(click images to advance)</div>'''}
+            "coverflow_underhtml":'''photos -><div class="second-companion">(click images to advance)</div>'''}]}
 
 
 
