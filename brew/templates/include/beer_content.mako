@@ -16,5 +16,5 @@
   <br/>
   
   <h2 class="impact">Questions?</h2>
-  <h4 class="impact"> Contact us at <a href="mailto:bh0085@gmail.com">bh0085@gmail.com</a></h4>
+  <h4 class="impact"> Contact us at <a href="mailto:hi@tbdbrew.com">hi@tbdbrew.com</a></h4>
 </div>
