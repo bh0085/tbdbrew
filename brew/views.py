@@ -104,7 +104,7 @@ def science_view(request):
             "coverflow_underhtml":'''photos -><div class="second-companion">(click images to advance)</div>'''}
 
 @view_config(route_name="coolship", renderer = "coolship.mako")
-def science_view(request):
+def coolship_view(request):
    return {"coverflow_info":[inspiringart_stuff ],
             "coverflow_underhtml":'''photos -><div class="second-companion">(click images to advance)</div>'''}
 
