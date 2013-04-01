@@ -2,7 +2,7 @@
 <%block name="content_html">
 <%include file="include/coverflow.mako"/>
 <div class="padded-content">
-  <div class="impact page-header"><h2>Our Vision</h2><h4>New approaches, novel beer.</h4></div>
+  <div class="impact page-header"><h2>Our Vision</h2><h4>New paths to novel technology.</h4></div>
   <h4 class="impact">Long Winded Description</h4>
   <div class="row-fluid">
     <div class = "span7 offset2">
