@@ -2,14 +2,14 @@
 <%block name="content_html">
 <%include file="include/coverflow.mako"/>
 <div class="padded-content">
-  <div class="impact page-header"><h2>The Coolship Vision</h2><h4>Focused Development of Fermentation Technology</h4></div>
-  <h4 class="impact">Lightning Version</h4>
+  <div class="page-header"><h2>The Coolship Vision</h2><h4>Focused Development of Fermentation Technology</h4></div>
+  <h4>Lightning Version</h4>
   <div class="row-fluid"><div class="span7 offset2">
       <p>TBD is launching an incubator lab to support early stage ventures in fermentation technology.</p>
       <p>We invite passionate teams of scientists and entrepreneurs to work in the basement lab of our brewhouse. Our goal is to support the development of fermentation-related technologies, nurturing early stage startups by providing them with facilities access and linking them to coordinating mentors in academia and industry.
 </p></div></div>
   
-  <h4 class="impact">Long Winded Description</h4>
+  <h4>Long Winded Description</h4>
   <div class="row-fluid">
     <div class = "span7 offset2">
       <p>
@@ -24,8 +24,8 @@
     </div>
   </div>
   <br/>
-  <h2 class="impact">Questions?</h2>
-  <h4 class="impact"> Contact us at <a href="mailto:hi@tbdbrew.com">hi@tbdbrew.com</a></h4>
+  <h2>Questions?</h2>
+  <h4> Contact us at <a href="mailto:coolship@tbdbrew.com">coolship@tbdbrew.com</a></h4>
 </div>
 
 
