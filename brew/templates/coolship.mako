@@ -16,10 +16,11 @@
         TBD ‘Koelschip Members’ are the glue of our operation. They bridge the gap between an interested public and real scientific advances. Members are the makers, creators, tinkerers and dreamers of the Koelschip. Home brewers need a venue to share and explore; our unique venture can become this community’s hub. Taking aspects of the DIY Bio and makerspace communities, the Koelschip gives members a real lab and brew workshop in which to learn. We provide the medium for an exchange and teaching of both practical skills and scientific theories behind brewing. Work space, equipment, expertise, and other resources are available to members so they can make contributions to Fellows’ projects or propose their own ideas to become Fellows themselves. Our activities will be widely documented and provide a public template. Koelschip members provide the democratic forum for the direction of projects, a source of new ideas and new Fellows. They also engage in workshare programs, helping to actively run the brewery directly, and gaining hands-on experience. We can simultaneously build a strong, educational brewing community doing real science, while working towards tangible, inspiring, novel prototypes, biology, and beers.
       </p>
     </div>
-    <br/>
-    <h2 class="impact">Questions?</h2>
-    <h4 class="impact"> Contact us at <a href="mailto:hi@tbdbrew.com">hi@tbdbrew.com</a></h4>
   </div>
+  <br/>
+  <h2 class="impact">Questions?</h2>
+  <h4 class="impact"> Contact us at <a href="mailto:hi@tbdbrew.com">hi@tbdbrew.com</a></h4>
+</div>
 
 
 </%block>
