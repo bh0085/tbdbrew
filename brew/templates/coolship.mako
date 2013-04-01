@@ -2,8 +2,8 @@
 <%block name="content_html">
 <%include file="include/coverflow.mako"/>
 <div class="padded-content">
-  <div class="impact page-header"><h2>The Coolship Vision</h2><h4>New paths to novel technology.</h4></div>
-  <h4 class="impact">Quick Vision</h4>
+  <div class="impact page-header"><h2>The Coolship Vision</h2><h4>Focused pursuit of Fermentation Technology</h4></div>
+  <h4 class="impact">Lightning Versioin</h4>
   <div class="row-fluid"><div class="span7 offset2">
       TBD founding is founding a first-of-its-kind incubator which runs a fellows program to support early stage ventures in fermentation technology. We aim to invite passionate teams of scientists and entrepreneurs to work in the basement lab of our brewhouse where we support fermentation-focused technologies and startups coordinated by industry and academic fellows.
   </div></div>
