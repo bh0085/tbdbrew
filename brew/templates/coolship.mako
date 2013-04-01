@@ -5,8 +5,9 @@
   <div class="impact page-header"><h2>The Coolship Vision</h2><h4>Focused Development of Fermentation Technology</h4></div>
   <h4 class="impact">Lightning Version</h4>
   <div class="row-fluid"><div class="span7 offset2">
-      TBD founding is founding a first-of-its-kind incubator which runs a fellows program to support early stage ventures in fermentation technology. We aim to invite passionate teams of scientists and entrepreneurs to work in the basement lab of our brewhouse where we support fermentation-focused technologies and startups coordinated by industry and academic fellows.
-  </div></div>
+      <p>TBD founding is founding a first-of-its-kind incubator which runs a fellows program to support early stage ventures in fermentation technology.</p>
+      <p> We aim to invite passionate teams of scientists and entrepreneurs to work in the basement lab of our brewhouse where we support fermentation-focused technologies and startups coordinated by industry and academic fellows.
+</p></div></div>
   
   <h4 class="impact">Long Winded Description</h4>
   <div class="row-fluid">
