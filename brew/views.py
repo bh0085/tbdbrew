@@ -43,10 +43,7 @@ inspiringbeers_stuff = {
         ]
     }
 
-@view_config(route_name='main', renderer='main.mako')
-def main_view(request):
-    return {"coverflow_info":
-                [{"id":"inspiring-art",
+inspiringart_stuff = {"id":"inspiring-art",
                   "title":"Art",
                   "pictures":[
                     {"image_root":"Inspiration",
@@ -64,9 +61,11 @@ def main_view(request):
                     {"image_root":"Inspiration",
                      "image_name":"BitchesBrew",
                      "image_position":"100% 100%"},
-                    ]},
-                 inspiringbeers_stuff,
-                 sb_stuff],
+                    ]}
+
+@view_config(route_name='main', renderer='main.mako')
+def main_view(request):
+    return {"coverflow_info":[inspiringart_stuff],
             "coverflow_underhtml":'''stuff that inspires us -><div class="second-companion">(click images to advance)</div>'''}
 
 
@@ -77,19 +76,6 @@ def about_view(request):
                  {"id":"ourbeer",
                   "title":"Our Beer",
                   "pictures":[
-                    {"image_root":"ourbeer",
-                     "image_name":"beginnings"},
-                    {"image_root":"ourbeer",
-                     "image_name":"keggle"},
-                    {"image_root":"ourbeer",
-                     "image_name":"kegglehops"},
-                    {"image_root":"ourbeer",
-                     "image_name":"tubes"},
-                    {"image_root":"ourbeer",
-                     "image_name":"candyjars",
-                     "image_position":"50% 30%"},
-                    {"image_root":"ourbeer",
-                     "image_name":"candyboil"},
                     {"image_root":"ourbeer",
                      "image_name":"newrig",
                      "image_position":"50% 20%"},
@@ -102,55 +88,33 @@ def about_view(request):
 def contact_view(request):
     return {}
 
-
 @view_config(route_name='beer', renderer='beer.mako')
 def beer_view(request):
-    return {"coverflow_info":[
-                 {"id":"ourbeer",
-                  "title":"Our Beer",
-                  "pictures":[
-                    {"image_root":"ourbeer",
-                     "image_name":"beginnings"},
-                    {"image_root":"ourbeer",
-                     "image_name":"keggle"},
-                    {"image_root":"ourbeer",
-                     "image_name":"kegglehops"},
-                    {"image_root":"ourbeer",
-                     "image_name":"tubes"},
-                    {"image_root":"ourbeer",
-                     "image_name":"candyjars",
-                     "image_position":"50% 30%"},
-                    {"image_root":"ourbeer",
-                     "image_name":"candyboil"},
-                    {"image_root":"ourbeer",
-                     "image_name":"newrig",
-                     "image_position":"50% 20%"},
-                    ]}
-                 ],
+    return {"coverflow_info":[ inspiringart_stuff ],
             "coverflow_underhtml":'''photos -><div class="second-companion">(click images to advance)</div>'''}
 
 @view_config(route_name="science", renderer = "science.mako")
 def science_view(request):
-   return {"coverflow_info":[
-                 {"id":"science",
-                  "title":"Science",
-                  "pictures":[
-                    {"image_root":"ourbeer",
-                     "image_name":"tubes"},
-                    ]}
-                 ],
+   return {"coverflow_info":[inspiringart_stuff],
             "coverflow_underhtml":'''photos -><div class="second-companion">(click images to advance)</div>'''}
+
+@view_config(route_name="science", renderer = "science.mako")
+def science_view(request):
+   return {"coverflow_info":[inspiringart_stuff ],
+            "coverflow_underhtml":'''photos -><div class="second-companion">(click images to advance)</div>'''}
+
+@view_config(route_name="coolship", renderer = "coolship.mako")
+def science_view(request):
+   return {"coverflow_info":[inspiringart_stuff ],
+            "coverflow_underhtml":'''photos -><div class="second-companion">(click images to advance)</div>'''}
+
 
 @view_config(route_name="show", renderer = "show.mako")
 def show_view(request):
     return {"coverflow_info":[
             {"id":"show",
              "title":"Show",
-             "pictures":[
-                    {"image_root":"ourbeer",
-                     "image_name":"beginnings"}
-                   ]}
-            ],
+             "pictures":[inspiringart_stuff],
             "coverflow_underhtml":'''photos -><div class="second-companion">(click images to advance)</div>'''}
 
 
