@@ -111,11 +111,8 @@ def coolship_view(request):
 
 @view_config(route_name="show", renderer = "show.mako")
 def show_view(request):
-    return {"coverflow_info":[
-            {"id":"show",
-             "title":"Show",
-             "pictures":[inspiringart_stuff],
-            "coverflow_underhtml":'''photos -><div class="second-companion">(click images to advance)</div>'''}]}
+    return {"coverflow_info":[inspiringart_stuff],
+            "coverflow_underhtml":'''photos -><div class="second-companion">(click images to advance)</div>'''}
 
 
 
