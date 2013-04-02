@@ -92,6 +92,17 @@
         </span>
       </div>
     </li>
+    <li class="span3">
+      <div class="thumbnail">
+        <img class="w300" src="/img/team/steve/300x200.jpg" alt="">
+        <img class="w1200" src="/img/team/steve/1200x800.jpg" alt="">
+        <div class="oneword">Coolship</div>
+        <span class="caption">
+          <h2>Ronn Friedlander</h2><h4>Coolship Incubator</h4>
+          <div class="manyword">Steven Reilly in an NSF fellow in the Noonan lab at Yale University where he is pursuing a PhD in Neuroscience and Genetics. He has been a leader in student government and managed the Yale student bar for three years. In his free time, he runs scientific events and mentors students for the New Haven Science Fair. As director of TBD’s incubator and fellows program, Steven will lead concept development and recruitment of academic and industry fellows to act as coordinators for startup teams participating in the incubator program.</div>
+        </span>
+      </div>
+    </li>
   </ul>
   <h3 class="impact">Partners</h3>
   <ul class="thumbnails">
