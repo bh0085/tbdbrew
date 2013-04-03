@@ -5,10 +5,6 @@
     <li><a href="#contact" data-toggle="tab">Contact</a></li>
   </ul>
     <span id="news" class="tab-pane active">
-      <div class="header">
-        <h1 class="impact">TBD is Davis Square's Brewery</h1>
-        <h4 class="impact">We Craft Fine Beers and Run a Lab Made Free to The Community</h4> 
-      </div>
   <div class="tab-content content-area skinny-panes">
     <span id="news" class="tab-pane active">
       <h1>New Blog Update</h1><h4><a href="http://tbdbrew.wordpress.com/2013/04/03/call-for-coolship-fellows/">Call for Coolship Fellows!</a></h4>
