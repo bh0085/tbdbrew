@@ -5,11 +5,12 @@
     <li><a href="#contact" data-toggle="tab">Contact</a></li>
   </ul>
   <div class="tab-content content-area skinny-panes">
-    <span id="news" class="tab-pane active">
+    <div class="row-fluid">
+    <span id="news" class="tab-pane active  span6 offset2">
       <h1><a href="http://tbdbrew.wordpress.com/2013/04/03/call-for-coolship-fellows/">Call for Coolship Fellows!</a></h1>
       <h4>4/3/2013 - TBD Brewery is searching for people with ideas to revolutionize brewing...</h4>
     </span>
-    <span id="join"  class="tab-pane">
+    <span id="join"  class="tab-pane span6 offset2">
       <h1 class="impact">Join our Mailing List</h1>
       <h4 class="impact">You'll get once-in-awhile updates as TBD Brewing launches the brewhouse, hordes laboratory equipment, and posts clips for our upcoming TV series.</h4> 
 
@@ -33,9 +34,10 @@
         </form>
       </div>
     </span>
-    <span id="contact"  class="tab-pane">
+    <span id="contact"  class="tab-pane  span6 offset2">
       <h1 class="impact">Curious?</h1>
       <h4 class="impact">Drop us a line at <a href=mailto:tbdbrew@gmail.com>tbdbrew@gmail.com</a></h4>
     </span>
+    </div>
   </div>
 </div>
