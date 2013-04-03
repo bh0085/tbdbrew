@@ -6,7 +6,7 @@
 
   <div class="impact">
     <h1 >TBD crafts local beer</h1>
-    <h3 class="impact">And runs an <a href="http://tbdbrew.com/coolship">accelerator lab</a> to drive development of fermentation technology of Greater Boston.</h3>
+    <h3 class="impact">And runs an <a href="http://tbdbrew.com/coolship">accelerator lab</a> to drive development of fermentation technology.</h3>
   </div>
 
   <ul class="nav nav-tabs marker-inverse">
