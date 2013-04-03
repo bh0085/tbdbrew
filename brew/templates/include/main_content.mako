@@ -12,6 +12,10 @@
       </div>
     </span>
     <span id="join"  class="tab-pane">
+
+      <h1 class="impact">Join our Mailing List</h1>
+      <h4 class="impact">You'll get once-in-awhile updates as TBD Brewing launches the brewhouse, hordes laboratory equipment, and posts clips for our upcoming TV series.</h4> 
+
     <!-- Begin MailChimp Signup Form -->
     <link href="http://cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css">
     <style type="text/css">
@@ -21,7 +25,6 @@
     </style>
     <div id="mc_embed_signup">
       <form action="http://tbdbrew.us5.list-manage.com/subscribe/post?u=91e98c559967a7bab33998646&amp;id=9d685ed599" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-	<h2>Join our mailing list</h2>
         <div class="mc-field-group">
 	  <label for="mce-EMAIL">Email Address </label>
 	  <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
@@ -34,6 +37,8 @@
     </div>
     </span>
 <!--End mc_embed_signup-->
-    <span id="contact"  class="tab-pane">Drop Us A Line - <a href=mailto:tbdbrew@gmail.com>tbdbrew@gmail.com</a></span>
+    <span id="contact"  class="tab-pane">
+        <h1 class="impact">Curious?</h1>
+        <h4 class="impact">Drop us a line at <a href=mailto:tbdbrew@gmail.com>tbdbrew@gmail.com</a></span></h4>
   </div>
 </div>
