@@ -7,7 +7,11 @@
   <div class="tab-content content-area skinny-panes">
     <span id="news" class="tab-pane active  span7 offset1">
       <h1><a href="http://tbdbrew.wordpress.com/2013/04/03/call-for-coolship-fellows/">Call for Coolship Fellows!</a></h1>
-      <h4>4/3/2013 - TBD Brewery is searching for people with ideas to revolutionize brewing...</h4>
+      <h4 class="page-header">4/3/2013 - TBD Brewery is searching for people with ideas to revolutionize brewing...</h4>
+
+
+      <h1>New pages are up!</h1>
+      <h4 class="page-header">4/3/2013 - Check out the brewery's vision and team at <a href="/about">tbdbrew.com/about</a> and learn about the coolship science lab at <a href="/coolship">tbdbrew.com/coolship</a>.</h4>
     </span>
     <span id="join"  class="tab-pane span7 offset1">
       <h1 class="impact">Join our Mailing List</h1>
