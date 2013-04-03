@@ -8,7 +8,7 @@
     <li><a href="#join" data-toggle="tab">Join</a></li>
     <li><a href="#contact" data-toggle="tab">Contact</a></li>
   </ul>
-  <div class="tab-content content-area skinny-panes" style="margin-top:20px;">
+  <div class="tab-content content-area skinny-panes" style="padding-top:40px; padding-bottom:40px">
     <span id="news" class="tab-pane active  span7 offset1">
       <h1><a href="http://tbdbrew.wordpress.com/2013/04/03/call-for-coolship-fellows/">Call for Coolship Fellows!</a></h1>
       <h4 class="page-header">4/3/2013 - TBD Brewery is searching for people with ideas to revolutionize brewing...</h4>
