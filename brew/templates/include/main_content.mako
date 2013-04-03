@@ -11,7 +11,7 @@
         <h4 class="impact">We Craft Fine Beers and Run a Lab Made Free to The Community</h4> 
       </div>
     </span>
-    <span id="join"  class="tab-pane"></span>
+    <span id="join"  class="tab-pane">
     <!-- Begin MailChimp Signup Form -->
     <link href="http://cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css">
     <style type="text/css">
@@ -32,6 +32,7 @@
 	</div>	<div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
       </form>
     </div>
+    </span>
 <!--End mc_embed_signup-->
     <span id="contact"  class="tab-pane">Drop Us A Line - <a href=mailto:tbdbrew@gmail.com>tbdbrew@gmail.com</a></span>
   </div>
