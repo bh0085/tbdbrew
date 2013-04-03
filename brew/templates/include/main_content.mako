@@ -24,7 +24,7 @@
       We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
     </style>
     <div id="mc_embed_signup">
-      <form action="http://tbdbrew.us5.list-manage.com/subscribe/post?u=91e98c559967a7bab33998646&amp;id=9d685ed599" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+      <form action="http://tbdbrew.us5.list-manage.com/subscribe/post?u=91e98c559967a7bab33998646&amp;id=9d685ed599" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate style="margin-left:0px;">
         <div class="mc-field-group">
 	  <label for="mce-EMAIL">Email Address </label>
 	  <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
