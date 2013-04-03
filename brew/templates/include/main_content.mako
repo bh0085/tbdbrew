@@ -1,14 +1,14 @@
 <div class="content">
-  <div class="impact header" style="text-align:center; padding-top:10px; padding-bottom:10px; border-top:1px solid black;">
-    <h1>TBD is Davis Square's Brewery</h1>
-    <h4>We Craft Fine Beers and Run a Lab Made Free to The Community</h4>
+  <div class="impact header" style="text-align:center; padding-top:20px; padding-bottom:20px; border-top:1px solid black;">
+    <h1>TBD is Building Davis Square's Brewery</h1>
+    <h4>We Aim to Craft Fine Beers and Run a Lab Made Free to The Community</h4>
   </div>
   <ul class="nav nav-tabs marker-inverse" style="border-top:none;">
     <li class="active"><a href="#news" data-toggle="tab">News</a></li>
     <li><a href="#join" data-toggle="tab">Join</a></li>
     <li><a href="#contact" data-toggle="tab">Contact</a></li>
   </ul>
-  <div class="tab-content content-area skinny-panes">
+  <div class="tab-content content-area skinny-panes" style="margin-top:20px;">
     <span id="news" class="tab-pane active  span7 offset1">
       <h1><a href="http://tbdbrew.wordpress.com/2013/04/03/call-for-coolship-fellows/">Call for Coolship Fellows!</a></h1>
       <h4 class="page-header">4/3/2013 - TBD Brewery is searching for people with ideas to revolutionize brewing...</h4>
