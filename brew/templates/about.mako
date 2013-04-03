@@ -19,12 +19,11 @@
       <div class="row-fluid">
         <div class="span7 offset2">
           <div class="description">
-            <p>At TBD, we aim to craft fine beers and engage passionate community members of Davis Square and the Boston Area. We aspire to:</p>
+            <p>At TBD, we aim to craft fine beers while engaging the research community of Greater Boston to drive innovation in fermentation technology. We operate locally and aim to:</p>
             <ol>
               <li>Brew fine Belgian-influenced American beers.</li>
-              <li>Teach aspiring brewers to operate commercial equipment.</li>
-              <li>Study yeast strains with the DIY Bio Community.</li>
-              <li>Develop technology with researchers and homebrewers.</li>
+              <li>Provide practical education in brewing and science to the community.</li>
+              <li>Develop technology with researchers and entrepreneurs.</li>
             </ol>
             <p>We are committed to building a flourishing spot in a beautiful space that will draw people to Davis Square while contributing to its development and diversity.</p>
           </div>
