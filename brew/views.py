@@ -13,22 +13,6 @@ sb_stuff = {"id":"scrapbook",
                   "title":"Our Scrapbook",
                   "pictures":[
                     {"image_root":"Scrapbook",
-                     "image_name":"hophands"},
-                    {"image_root":"Scrapbook",
-                     "image_name":"firstrig",
-                     "image_position":"50% 25%"},
-                    {"image_root":"Scrapbook",
-                     "image_name":"firstbottle"},
-                    {"image_root":"Scrapbook",
-                     "image_name":"firstaward",
-                     "image_position":"50% 25%"
-                     },
-                    {"image_root":"Scrapbook",
-                     "image_name":"firstbrand"},
-                    {"image_root":"Scrapbook",
-                     "image_name":"secondspace",
-                     "image_position":"50% 25%"},
-                    {"image_root":"Scrapbook",
                      "image_name":"thumbsup"},
                     ]}
 
