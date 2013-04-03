@@ -8,7 +8,7 @@
       <ul class="nav pull-right">
         <li><a href="/about">About</a></li>
         <li><a href="/beer">Beer</a></li>        
-        <li><a href="/coolship">Science</a></li>        
+        <li><a href="/coolship">Accelerator</a></li>        
         <li><a href="/show">Show</a></li>        
       </ul>
     </div>

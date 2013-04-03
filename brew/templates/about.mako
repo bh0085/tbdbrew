@@ -6,7 +6,7 @@
 
   <div class="impact">
     <h1 >TBD crafts local beer</h1>
-    <h3 class="impact">Engaging the academics and homebrewers of Greater Boston</h3>
+    <h3 class="impact">And runs an <a href="http://tbdbrew.com/coolship">accelerator lab</a> to drive development of fermentation technology of Greater Boston.</h3>
   </div>
 
   <ul class="nav nav-tabs marker-inverse">
@@ -98,7 +98,7 @@
         <img class="w1200" src="/img/team/steve/1200x800.jpg" alt="">
         <div class="oneword">Coolship</div>
         <span class="caption">
-          <h2>Steven Reilly</h2><h4>Coolship Incubator</h4>
+          <h2>Steven Reilly</h2><h4>Coolship Accelerator</h4>
           <div class="manyword">Stee was born and raised in New Jersey before bounding off to Carnegie Mellon in Pittsburgh where he took all that science knowledge and put it towards something useful: backyard distilleries and autoclave homebrews. He currently calls New Haven home, where he studies the genetics behind the evolution of the human brain as an NSF fellow at Yale. He enjoys glassblowing, brewing strange concoctions,  and spontaneous adventuring. </div>
         </span>
       </div>
