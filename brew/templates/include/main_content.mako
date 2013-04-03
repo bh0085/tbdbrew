@@ -4,7 +4,7 @@
     <li><a href="#join" data-toggle="tab">Join</a></li>
     <li><a href="#contact" data-toggle="tab">Contact</a></li>
   </ul>
-  <div class="tab-content content-area">
+  <div class="tab-content content-area skinny-panes">
     <span id="news" class="tab-pane active">
       <div class="header">
         <h1 class="impact">TBD is Davis Square's Brewery</h1>
