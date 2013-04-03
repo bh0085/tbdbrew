@@ -41,14 +41,7 @@
               <li>Developing recipes and technology to ensure quality and push the envelope.</li>
               <li>Involving the community in manufacture and education.</li>
               <li>Operating with respect for our environment and town.</li>
-              <li>Outreaching extensively to retailers of local food and drinks.</li>
-            </ul>
-            And strives to optimize early growth by:
-            <ul>
-              <li>Leasing a space with substantial reserved capacity.</li>
-              <li>Installing an energy efficient brew system supporting 10x our initial production.</li>
-              <li>Choosing a location which allow us to sell on site while engaging in efficient self-distribution.</li>
-              <li>Marketing ourselves locally and developing a series for national television.</li>
+              <li>Outreaching extensively to local vendors.</li>
             </ul>
           </div>
         </div>
