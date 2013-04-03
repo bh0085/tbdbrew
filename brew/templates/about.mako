@@ -19,7 +19,7 @@
       <div class="row-fluid">
         <div class="span7 offset2">
           <div class="description">
-            <p>At TBD, we aim to craft fine beers while advancing the homebrewing community of Davis Square and the Boston Area. We operate locally and aim to:</p>
+            <p>At TBD, we aim to craft fine beers and engage passionate community members of Davis Square and the Boston Area. We operate locally and aim to:</p>
             <ol>
               <li>Brew fine Belgian-influenced American beers.</li>
               <li>Teach aspiring brewers to operate commercial equipment.</li>
