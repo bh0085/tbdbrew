@@ -1,5 +1,5 @@
 <div class="content">
-  <div class="impact header" style="text-align:center; padding-top:20px; padding-bottom:20px; border-top:1px solid black;">
+  <div class="impact header" style="text-align:center; padding-top:20px; padding-bottom:10px; border-top:1px solid black;">
     <h1>TBD is Building Davis Square's Brewery</h1>
     <h4>We Aim to Craft Fine Beers and Run a Lab Made Free to The Community</h4>
   </div>
