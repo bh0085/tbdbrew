@@ -1,5 +1,9 @@
 <div class="content">
-  <ul class="nav nav-tabs marker-inverse">
+  <div class="impact header" style="text-align:center; padding-top:10px; padding-bottom:10px; border-top:1px solid black;">
+  <h1>TBD is Davis Square's Brewery</h1>
+  <h4>We Craft Fine Beers and Run a Lab Made Free to The Community</h4>
+  </div>
+  <ul class="nav nav-tabs marker-inverse" style="border-top:none;>
     <li class="active"><a href="#news" data-toggle="tab">News</a></li>
     <li><a href="#join" data-toggle="tab">Join</a></li>
     <li><a href="#contact" data-toggle="tab">Contact</a></li>
