@@ -91,7 +91,7 @@
         <div class="oneword">Coolship</div>
         <span class="caption">
           <h2>Steven Reilly</h2><h4>Coolship Accelerator</h4>
-          <div class="manyword">Stee was born and raised in New Jersey before bounding off to Carnegie Mellon in Pittsburgh where he took all that science knowledge and put it towards something useful: backyard distilleries and autoclave homebrews. He currently calls New Haven home, where he studies the genetics behind the evolution of the human brain as an NSF fellow at Yale. He enjoys glassblowing, brewing strange concoctions,  and spontaneous adventuring. </div>
+          <div class="manyword">Steve was born and raised in New Jersey before bounding off to Carnegie Mellon in Pittsburgh where he took all that science knowledge and put it towards something useful: backyard distilleries and autoclave homebrews. He currently calls New Haven home, where he studies the genetics behind the evolution of the human brain as an NSF fellow at Yale. He enjoys glassblowing, brewing strange concoctions,  and spontaneous adventuring. </div>
         </span>
       </div>
     </li>
