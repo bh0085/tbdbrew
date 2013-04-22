@@ -5,8 +5,8 @@
 <div class="padded-content">
 
   <div class="impact">
-    <h1 >TBD crafts local beer</h1>
-    <h3 class="impact">And runs an <a href="http://tbdbrew.com/coolship">accelerator lab</a> to drive development of fermentation technology.</h3>
+    <h1 >TBD crafts local beer and runs a fermentation tech <a href="http://tbdbrew.com/coolship">accelerator</a>.</h1>
+ </h3>
   </div>
 
   <ul class="nav nav-tabs marker-inverse">
@@ -19,13 +19,15 @@
       <div class="row-fluid">
         <div class="span7 offset2">
           <div class="description">
-            <p>At TBD, we aim to craft fine beers while engaging the research community of Greater Boston to drive innovation in fermentation technology. We operate locally and aim to:</p>
+            <p>At TBD, we aim to craft fine beers while engaging researchers and entrepreneurs to drive innovation in fermentation technology. We are founding a local craft brewhouse and aim to:</p>
             <ol>
               <li>Brew fine Belgian-influenced American beers.</li>
               <li>Provide practical education in brewing and science to the community.</li>
-              <li>Develop technology with researchers and entrepreneurs.</li>
+              <li>Guide teams of researchers to develop businesses around fermentation technologies.
+
+</li>
             </ol>
-            <p>We are committed to building a flourishing spot in a beautiful space that will draw people to Davis Square while contributing to its development and diversity.</p>
+            <p>We are committed to building a flourishing spot in a beautiful space that will draw people to Somerville while contributing to its development and diversity.</p>
           </div>
         </div>
       </div>
