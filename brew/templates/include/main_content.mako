@@ -10,7 +10,7 @@
   </ul>
   <div class="tab-content content-area skinny-panes" style="padding-top:40px; padding-bottom:40px">
     <span id="news" class="tab-pane active  span7 offset1">
-      <h1><a href="http://tbdbrew.wordpress.com/2013/04/03/call-for-coolship-fellows/">Boston.com/Hive interview</a></h1>
+      <h1><a href="http://www.boston.com/business/innovation/blogs/inside-the-hive/2013/04/23/tbd-brewing-hopes-bring-davis-square-its-first-brewery-serves-fermentation-start-ups/FfCOPqn6ZFDYIQnVx84SiL/blog.html">Boston.com/Hive interview</a></h1>
       <h4 class="page-header">4/23/2013 - Hive hive has put up a short interview with TBD brew about the coolship. Check it out: <a href="http://www.boston.com/business/innovation/blogs/inside-the-hive/2013/04/23/tbd-brewing-hopes-bring-davis-square-its-first-brewery-serves-fermentation-start-ups/FfCOPqn6ZFDYIQnVx84SiL/blog.html">here</a>!</h4>
       
       <h1><a href="http://tbdbrew.wordpress.com/2013/04/03/call-for-coolship-fellows/">Call for Coolship Fellows!</a></h1>
