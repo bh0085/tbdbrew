@@ -1,7 +1,7 @@
 <div class="content">
   <div class="impact header" style="text-align:center; padding-top:20px; padding-bottom:10px; border-top:1px solid black;">
     <h1>TBD is Building Davis Square's Brewery</h1>
-    <h4>TBD will craft fine beers and run an accelerator lab open to the community.</h4>
+    <h4>Where we will craft fine beers and run an fermentation-tech accelerator lab made open to the community.</h4>
   </div>
   <ul class="nav nav-tabs marker-inverse" style="border-top:none;">
     <li class="active"><a href="#news" data-toggle="tab">News</a></li>
