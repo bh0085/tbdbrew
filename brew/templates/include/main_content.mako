@@ -46,7 +46,7 @@
     </span>
     <span id="contact"  class="tab-pane  span7 offset1">
       <h1 class="impact">Curious?</h1>
-      <h4 class="impact">Drop us a line at <a href=mailto:tbdbrew@gmail.com>tbdbrew@gmail.com</a></h4>
+      <h4 class="impact">Drop us a line at <a href=mailto:hi@tbdbrew.com>hi@tbdbrew.com</a></h4>
     </span>
   </div>
 </div>
