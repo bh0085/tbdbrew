@@ -14,13 +14,10 @@
   <div class="tab-content content-area skinny-panes" style="padding-top:40px; padding-bottom:40px">
     <span id="vision" class="tab-pane active  span7 offset1">
   <h4>The Vision</h4>
-  <div class="row-fluid"><div class="span7 offset2">
       <p>TBD is launching an incubator lab to support early stage ventures in fermentation technology.</p>
       <p>We invite passionate teams of scientists and entrepreneurs to work in the basement lab of our brewhouse. Our goal is to support the development of fermentation-related technologies, nurturing early stage startups by providing them with facilities access and linking them to coordinating mentors in academia and industry.
       </p><p>
         <b>For recent announcements including our call for fellows, See <a href="tbdbrew.wordpress.com">TBDBrew's Blog</a></p></b>
-      </div></div>
-  
     </span>
     <span id="about"  class="tab-pane span7 offset1">
 
