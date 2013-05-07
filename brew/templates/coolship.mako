@@ -4,7 +4,7 @@
 
 <div class="content">
   <div class="impact header" style="text-align:center; padding-top:20px; padding-bottom:10px; border-top:1px solid black;">
-    <h1>TBD's Coolship Startup Incubator.</h1><h4>Aims to Accelerate Business Ventures in Fermentation Technology.</h4>
+    <h1>The Coolship Startup Incubator.</h1><h4>TBD's Project to Accelerate Business Ventures in Fermentation Technology.</h4>
   </div>
   <ul class="nav nav-tabs marker-inverse" style="border-top:none;">
     <li class="active"><a href="#vision" data-toggle="tab">Vision</a></li>
