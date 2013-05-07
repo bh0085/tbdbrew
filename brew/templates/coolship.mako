@@ -25,8 +25,6 @@
     <span id="about"  class="tab-pane span7 offset1">
 
   <h4>About The Coolship</h4>
-  <div class="row-fluid">
-    <div class = "span7 offset2">
       <p>
         The TBD Coolship aims to start a new kind of community laboratory, educational co-op, and technology incubator. Our namesake derives from the Belgian “cool-ship”, which were originally used to cool raw beer, allowed the wild yeast and bacteria to inoculate the wort and spontaneously ferment. Each brew was  unique, shaped by whatever floated in the window that day. It’s those basic tenets that are the driving force behind the TBD Coolship.: that beer should be locally conceived, experimented on, and the product of many distinctive individuals and ideas.
       </p><p>
@@ -36,8 +34,6 @@
       </p><p>
         TBD ‘Coolship Members’ are the glue of our operation. They bridge the gap between an interested public and real scientific advances. Members are the makers, creators, tinkerers and dreamers of the Coolship. Home brewers need a venue to share and explore; our unique venture can become this community’s hub. Taking aspects of the DIY Bio and makerspace communities, the Coolship gives members a real lab and brew workshop in which to learn. We provide the medium for an exchange and teaching of both practical skills and scientific theories behind brewing. Work space, equipment, expertise, and other resources are available to members so they can make contributions to Fellows’ projects or propose their own ideas to become Fellows themselves. Our activities will be widely documented and provide a public template. Coolship members provide the democratic forum for the direction of projects, a source of new ideas and new Fellows. They also engage in workshare programs, helping to actively run the brewery directly, and gaining hands-on experience. We can simultaneously build a strong, educational brewing community doing real science, while working towards tangible, inspiring, novel prototypes, biology, and beers.
       </p>
-    </div>
-  </div>
     </span>
     <span id="join"  class="tab-pane  span7 offset1">
   <h2>Interested in participating in the coolship?</h2>
