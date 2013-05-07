@@ -18,8 +18,8 @@
       <p>TBD is launching an incubator lab to support early stage ventures in fermentation technology.</p>
       <p>We invite passionate teams of scientists and entrepreneurs to work in the basement lab of our brewhouse. Our goal is to support the development of fermentation-related technologies, nurturing early stage startups by providing them with facilities access and linking them to coordinating mentors in academia and industry.
       </p><p>
-        For recent announcements including our call for fellows, See <a href="tbdbrew.wordpress.com">TBDBrew's Blog</a></p>
-      ></div></div>
+        <b>For recent announcements including our call for fellows, See <a href="tbdbrew.wordpress.com">TBDBrew's Blog</a></p></b>
+      </div></div>
   
     </span>
     <span id="about"  class="tab-pane span7 offset1">
