@@ -1,14 +1,29 @@
 <%inherit file="base.mako"/>
 <%block name="content_html">
 <%include file="include/coverflow.mako"/>
-<div class="padded-content">
-  <div class="page-header"><h2>The Coolship</h2><h4>Focused Development of Fermentation Technology</h4></div>
+
+
+<div class="content">
+  <div class="impact header" style="text-align:center; padding-top:20px; padding-bottom:10px; border-top:1px solid black;">
+    <h1>The Coolship</h1>
+    <h4>Focused Development of Fermentation Technology - announcements at <a href="tbdbrew.wordpress.com">TBDBrew's Blog</a></h4>.
+  </div>
+  <ul class="nav nav-tabs marker-inverse" style="border-top:none;">
+    <li class="active"><a href="#vision" data-toggle="tab">Vision</a></li>
+    <li><a href="#about" data-toggle="tab">About</a></li>
+    <li><a href="#join" data-toggle="tab">Join</a></li>
+  </ul>
+  <div class="tab-content content-area skinny-panes" style="padding-top:40px; padding-bottom:40px">
+    <span id="vision" class="tab-pane active  span7 offset1">
   <h4>The Vision</h4>
   <div class="row-fluid"><div class="span7 offset2">
       <p>TBD is launching an incubator lab to support early stage ventures in fermentation technology.</p>
       <p>We invite passionate teams of scientists and entrepreneurs to work in the basement lab of our brewhouse. Our goal is to support the development of fermentation-related technologies, nurturing early stage startups by providing them with facilities access and linking them to coordinating mentors in academia and industry.
 </p></div></div>
   
+    </span>
+    <span id="about"  class="tab-pane span7 offset1">
+
   <h4>About The Coolship</h4>
   <div class="row-fluid">
     <div class = "span7 offset2">
@@ -23,10 +38,17 @@
       </p>
     </div>
   </div>
-  <br/>
-  <h2>Questions?</h2>
-  <h4> Contact us at <a href="mailto:coolship@tbdbrew.com">coolship@tbdbrew.com</a></h4>
+    </span>
+    <span id="join"  class="tab-pane  span7 offset1">
+  <h2>Interested in participating in the coolship?</h2>
+  <h4> Check out our <a href="http://tbdbrew.wordpress.com/2013/04/03/call-for-coolship-fellows/">call for fellows!</a> or send us an email at <a href="mailto:coolship@tbdbrew.com">coolship@tbdbrew.com</a></h4>
+  </div>
 </div>
+
+
+
+
+
 
 
 </%block>
