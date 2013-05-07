@@ -4,8 +4,7 @@
 
 <div class="content">
   <div class="impact header" style="text-align:center; padding-top:20px; padding-bottom:10px; border-top:1px solid black;">
-    <h1>The Coolship</h1>
-    <h4>TBD's Fermentation Tech Incubator.<br/>Announcements at <a href="tbdbrew.wordpress.com">TBDBrew's Blog</a></h4>.
+    <h1>The Coolship Startup Accelerator.<br/>TBD's Fermentation Tech Incubator Announcements at <a href="tbdbrew.wordpress.com">TBDBrew's Blog</a></h4>.
   </div>
   <ul class="nav nav-tabs marker-inverse" style="border-top:none;">
     <li class="active"><a href="#vision" data-toggle="tab">Vision</a></li>
