@@ -2,7 +2,6 @@
 <%block name="content_html">
 <%include file="include/coverflow.mako"/>
 
-
 <div class="content">
   <div class="impact header" style="text-align:center; padding-top:20px; padding-bottom:10px; border-top:1px solid black;">
     <h1>The Coolship</h1>
