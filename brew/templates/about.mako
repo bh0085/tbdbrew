@@ -98,46 +98,6 @@
       </div>
     </li>
   </ul>
-  <h3 class="impact">Partners</h3>
-  <ul class="thumbnails">
-
-    <li class="span3">
-      <div class="thumbnail">
-        <img class="w300" src="/img/team/feng/300x200.jpg" alt="">
-        <img class="w1200" src="/img/team/feng/1200x800.jpg" alt="">
-        <div class="oneword">Professor</div>
-        <span class="caption">
-          <h2>Feng Zhang</h2><h4>Scientific Advisor</h4>
-          <div class="manyword">Feng Zhang mentors us at MIT, steering our scientific staff through wet lab boondoggles and our business team from expensive quagmires. He is core faculty at the Broad Institute, a pioneer of <a href="http://en.wikipedia.org/wiki/Optogenetics">optogenetics</a> and currently leads a lab developing a <a href="http://zlab.mit.edu/resources.html">broad swath of genomic engineering technologies</a>.</div>
-        </span>
-      </div>
-    </li>
-
-    <li class="span3">
-      <div class="thumbnail">
-        <img class="w300" src="/img/team/erin/300x200.jpg" alt="">
-        <img class="w1200" src="/img/team/erin/1200x800.jpg" alt="">
-        <div class="oneword">Admin</div>
-        <span class="caption">
-          <h2>Erin Blackwell</h2><h4>Scientific Administration</h4>
-          <div class="manyword">Erin works with us at MIT and the Broad Institute on scientific outreach and to maintain general order. She ensures that our occasional leaves of abscence from academia occur on a strictly voluntary basis. </div>
-        </span>
-      </div>
-    </li>
-
-    <li class="span3">
-      <div class="thumbnail">
-        <img class="w300" src="/img/team/ann/300x200.jpg" alt="">
-        <img class="w1200" src="/img/team/ann/1200x800.jpg" alt="">
-        <div class="oneword">Distilling</div>
-        <span class="caption">
-          <h2>Fei Ann Ran</h2><h4>Hackerspace Distilling</h4>
-          <div class="manyword">Ann is an MIT graduate student who works with us to plan and develop our hackerspace distellery. For legal purposes, she wishes to make it clear that she has never designed much less run a distellery in her garage or kitchen. We are allowed to tell you that she experiments with infusion her own liqueurs, which has led to the stockpiling of many kinds of alcohol in the kitchen...</div>
-        </span>
-      </div>
-    </li>
-  </ul>
-
   <h1 class="page-header impact">Brewery</h1>
   <h3 class="impact">Main System</h3>
 

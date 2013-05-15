@@ -16,6 +16,6 @@
 </div>
 <div class="padded afternav collapse marker-inverse" style="color:white; -webkit-font-smoothing:antialiased;" id="afternav">
   
-    TBD Brewing is a community supported Brewery and Fermentation Lab moving into Davis Square Summer 2013! We brew fine beers while running a research lab that enables our community to develop recipes and techniques for brewing and beyond.
+    TBD Brewing is a community supported Brewery and Fermentation Lab moving into Somerville Summer 2013! We brew fine beers while running a research lab that enables our community to develop recipes and techniques for brewing and beyond.
     <br/><br/>
 </div>
