@@ -10,6 +10,9 @@
   </ul>
   <div class="tab-content content-area skinny-panes" style="padding-top:40px; padding-bottom:40px">
     <span id="news" class="tab-pane active  span7 offset1">
+      <h1><a href="http://vimeo.com/68721224">Unboxing the Pilot System</a></h1>
+      <h4 class="page-header">6/19/2013 - TBD's single barrel pilot brewing system has arrived. Woohoo! Watch Dan film Mike and Ben Unloading it <a href="http://vimeo.com/68721224">here</a>.</h4>
+ 
       <h1><a href="http://www.boston.com/business/innovation/blogs/inside-the-hive/2013/04/23/tbd-brewing-hopes-bring-davis-square-its-first-brewery-serves-fermentation-start-ups/FfCOPqn6ZFDYIQnVx84SiL/blog.html">Boston.com/Hive interview</a></h1>
       <h4 class="page-header">4/23/2013 - Boston.com's "Hive" has put up a short interview with TBD on the coolship accelerator. Check it out: <a href="http://www.boston.com/business/innovation/blogs/inside-the-hive/2013/04/23/tbd-brewing-hopes-bring-davis-square-its-first-brewery-serves-fermentation-start-ups/FfCOPqn6ZFDYIQnVx84SiL/blog.html">here</a>!</h4>
       
